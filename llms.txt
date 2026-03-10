@@ -1,0 +1,12 @@
+# 世界百科 World Encyclopedia
+> 探索世界的建築・文化・美食・自然
+
+## Sections
+- [世界建築巡禮](/architecture-tour.html): 15座世界標誌性建築全覽
+
+## About
+世界百科是一個多語言百科平台，涵蓋建築、文化、美食、自然四大主題。
+
+## Contact
+- Website: https://world-encyclopedia.vercel.app
+- GitHub: https://github.com/Inari-Kira-Isla/world-encyclopedia

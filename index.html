@@ -1,0 +1,1717 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>世界百科 — World Encyclopedia | 探索世界的建築・文化・美食・自然</title>
+  <meta name="description" content="世界百科是一個多語言百科平台，涵蓋建築、文化、美食、自然四大主題。探索全球標誌性建築、世界文化遺產、各地美食與壯麗自然奇觀。" />
+  <meta name="keywords" content="世界百科, 建築巡禮, 世界文化遺產, 世界美食, 自然奇觀, world encyclopedia, architecture tour" />
+  <meta name="author" content="World Encyclopedia" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://world-encyclopedia.vercel.app/" />
+
+  <!-- AI Discovery -->
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt — AI Discovery" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://world-encyclopedia.vercel.app/" />
+  <meta property="og:title" content="世界百科 — World Encyclopedia" />
+  <meta property="og:description" content="探索世界的建築・文化・美食・自然。多語言百科平台，深度探索全球文明精華。" />
+  <meta property="og:image" content="https://world-encyclopedia.vercel.app/og-cover.jpg" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:locale:alternate" content="en_US" />
+  <meta property="og:site_name" content="世界百科 World Encyclopedia" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="世界百科 — World Encyclopedia" />
+  <meta name="twitter:description" content="探索世界的建築・文化・美食・自然。" />
+  <meta name="twitter:image" content="https://world-encyclopedia.vercel.app/og-cover.jpg" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "世界百科 World Encyclopedia",
+    "alternateName": "World Encyclopedia",
+    "url": "https://world-encyclopedia.vercel.app/",
+    "description": "多語言世界百科平台，涵蓋建築、文化、美食、自然四大主題",
+    "inLanguage": ["zh-TW", "en"],
+    "publisher": {
+      "@type": "Organization",
+      "name": "World Encyclopedia",
+      "url": "https://world-encyclopedia.vercel.app/"
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://world-encyclopedia.vercel.app/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "世界百科欄目總覽",
+    "description": "探索世界的建築・文化・美食・自然四大主題欄目",
+    "url": "https://world-encyclopedia.vercel.app/",
+    "numberOfItems": 4,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "世界建築巡禮",
+        "description": "15座世界標誌性建築深度全覽，從艾菲爾鐵塔到吳哥窟",
+        "url": "https://world-encyclopedia.vercel.app/architecture-tour.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "世界美食圖鑑",
+        "description": "環遊世界的舌尖旅程，探索各大洲代表性料理與飲食文化",
+        "url": "https://world-encyclopedia.vercel.app/food-atlas.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "世界文化遺產",
+        "description": "UNESCO 世界遺產精選，探索人類文明的共同瑰寶",
+        "url": "https://world-encyclopedia.vercel.app/cultural-heritage.html"
+      },
+      {
+        "@type": "ListItem",
+        "position": 4,
+        "name": "世界自然奇觀",
+        "description": "地球上最壯麗的自然景觀，從大峽谷到極光奇境",
+        "url": "https://world-encyclopedia.vercel.app/natural-wonders.html"
+      }
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "世界百科涵蓋哪些主題？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "世界百科目前涵蓋四大主題：世界建築巡禮（15座標誌性建築）、世界美食圖鑑（各大洲代表料理）、世界文化遺產（UNESCO 精選）、世界自然奇觀（地球壯麗景觀）。平台持續擴充中。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "世界百科的內容是否免費使用？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "是的，世界百科的所有內容均採用 Creative Commons CC BY 4.0 授權，您可以自由分享與改編，但需署名來源。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "世界百科支援哪些語言？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "世界百科主要以繁體中文撰寫，部分條目附有英文對照，目標成為連接中文讀者與世界知識的橋梁。"
+        }
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    /* ========================================
+       CSS CUSTOM PROPERTIES & RESET
+    ======================================== */
+    :root {
+      --bg-deep:       #0d0d1a;
+      --bg-main:       #1a1a2e;
+      --bg-card:       #16213e;
+      --bg-card-hover: #1f2d50;
+      --gold:          #d4a574;
+      --gold-light:    #e8c49a;
+      --gold-dark:     #a87848;
+      --cream:         #f5f0e8;
+      --cream-dim:     #c8bfb0;
+      --text-primary:  #f5f0e8;
+      --text-secondary:#b8b0a4;
+      --text-muted:    #786e64;
+      --border:        rgba(212, 165, 116, 0.18);
+      --border-hover:  rgba(212, 165, 116, 0.45);
+      --shadow-gold:   0 0 30px rgba(212, 165, 116, 0.12);
+      --shadow-deep:   0 20px 60px rgba(0, 0, 0, 0.5);
+      --radius-card:   16px;
+      --radius-sm:     8px;
+      --transition:    0.35s cubic-bezier(0.4, 0, 0.2, 1);
+
+      /* Section gradient palettes */
+      --arch-a:  #2d1b4e;
+      --arch-b:  #1a3a5c;
+      --food-a:  #3a1a1a;
+      --food-b:  #2d1f00;
+      --heritage-a: #1a2d1a;
+      --heritage-b: #0f2a2a;
+      --nature-a:  #0f1f3a;
+      --nature-b:  #1a0f2e;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+    }
+
+    body {
+      background-color: var(--bg-deep);
+      color: var(--text-primary);
+      font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+      line-height: 1.7;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ========================================
+       BACKGROUND STAR FIELD
+    ======================================== */
+    .star-field {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .star-field::before,
+    .star-field::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 8%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 70%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 22%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 55%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 35%, rgba(255,255,255,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 75%, rgba(255,255,255,0.35) 0%, transparent 100%),
+        radial-gradient(1px 1px at 35% 88%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 62% 92%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 48% 52%, rgba(212,165,116,0.25) 0%, transparent 100%),
+        radial-gradient(1px 1px at 78% 80%, rgba(212,165,116,0.2) 0%, transparent 100%);
+      animation: twinkle 8s ease-in-out infinite alternate;
+    }
+
+    .star-field::after {
+      background-image:
+        radial-gradient(1px 1px at 5% 50%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 20% 25%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 33% 60%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 47% 30%, rgba(255,255,255,0.35) 0%, transparent 100%),
+        radial-gradient(1px 1px at 60% 45%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 72% 12%, rgba(255,255,255,0.5) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 85% 68%, rgba(255,255,255,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 92% 90%, rgba(255,255,255,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 18% 95%, rgba(255,255,255,0.35) 0%, transparent 100%);
+      animation-delay: 4s;
+      animation-duration: 11s;
+    }
+
+    @keyframes twinkle {
+      0%   { opacity: 0.6; }
+      50%  { opacity: 1; }
+      100% { opacity: 0.5; }
+    }
+
+    /* ========================================
+       NAVIGATION BAR
+    ======================================== */
+    .navbar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(1rem, 4vw, 3rem);
+      height: 64px;
+      background: rgba(13, 13, 26, 0.75);
+      backdrop-filter: blur(16px) saturate(160%);
+      -webkit-backdrop-filter: blur(16px) saturate(160%);
+      border-bottom: 1px solid rgba(212, 165, 116, 0.12);
+      transition: background var(--transition), box-shadow var(--transition);
+    }
+
+    .navbar.scrolled {
+      background: rgba(13, 13, 26, 0.95);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.4);
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      text-decoration: none;
+    }
+
+    .nav-brand-icon {
+      width: 32px;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+    }
+
+    .nav-brand-text {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.05rem;
+      font-weight: 500;
+      color: var(--gold);
+      letter-spacing: 0.04em;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--cream-dim);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 400;
+      letter-spacing: 0.06em;
+      transition: color var(--transition);
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--gold);
+      transition: width var(--transition);
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    .nav-links .nav-live {
+      color: var(--gold);
+      border: 1px solid rgba(212,165,116,0.4);
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+    }
+
+    .nav-links .nav-live:hover {
+      background: rgba(212,165,116,0.1);
+    }
+
+    .nav-links .nav-live::after {
+      display: none;
+    }
+
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+    }
+
+    /* ========================================
+       HERO SECTION
+    ======================================== */
+    .hero {
+      position: relative;
+      z-index: 1;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: clamp(6rem, 12vw, 10rem) clamp(1rem, 5vw, 4rem) clamp(4rem, 8vw, 6rem);
+      overflow: hidden;
+    }
+
+    /* Radial glow behind hero content */
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -55%);
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(ellipse at center,
+        rgba(212, 165, 116, 0.06) 0%,
+        rgba(26, 26, 46, 0.0) 70%);
+      pointer-events: none;
+    }
+
+    .hero-kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.78rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1.6rem;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 0.9s ease forwards 0.2s;
+    }
+
+    .hero-kicker::before,
+    .hero-kicker::after {
+      content: '';
+      display: block;
+      width: 32px;
+      height: 1px;
+      background: var(--gold-dark);
+    }
+
+    .hero-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(2.8rem, 7vw, 6rem);
+      font-weight: 300;
+      line-height: 1.15;
+      color: var(--cream);
+      letter-spacing: -0.01em;
+      margin-bottom: 0.5rem;
+      opacity: 0;
+      transform: translateY(24px);
+      animation: fadeUp 1s ease forwards 0.4s;
+    }
+
+    .hero-title .gold-accent {
+      color: var(--gold);
+      font-weight: 400;
+    }
+
+    .hero-title-en {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(1rem, 2.5vw, 1.6rem);
+      font-weight: 300;
+      color: var(--text-muted);
+      letter-spacing: 0.2em;
+      margin-bottom: 2rem;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeUp 1s ease forwards 0.55s;
+    }
+
+    .hero-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 1.8rem;
+      opacity: 0;
+      animation: fadeIn 1.2s ease forwards 0.7s;
+    }
+
+    .hero-divider-line {
+      width: 60px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold-dark));
+    }
+
+    .hero-divider-line:last-child {
+      background: linear-gradient(90deg, var(--gold-dark), transparent);
+    }
+
+    .hero-divider-diamond {
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      transform: rotate(45deg);
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1rem, 2vw, 1.15rem);
+      color: var(--cream-dim);
+      font-weight: 300;
+      letter-spacing: 0.12em;
+      margin-bottom: 3rem;
+      opacity: 0;
+      transform: translateY(16px);
+      animation: fadeUp 1s ease forwards 0.8s;
+    }
+
+    .hero-subtitle .dot {
+      color: var(--gold);
+      margin: 0 0.2em;
+    }
+
+    .hero-stats {
+      display: flex;
+      gap: clamp(2rem, 5vw, 4rem);
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 3.5rem;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1s;
+    }
+
+    .stat-item {
+      text-align: center;
+    }
+
+    .stat-number {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 300;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 0.3rem;
+    }
+
+    .stat-label {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      letter-spacing: 0.1em;
+    }
+
+    .hero-cta {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.7rem;
+      padding: 0.9rem 2.2rem;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: var(--bg-deep);
+      font-size: 0.9rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-decoration: none;
+      border-radius: 40px;
+      transition: transform var(--transition), box-shadow var(--transition), filter var(--transition);
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1.1s;
+    }
+
+    .hero-cta:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(212,165,116,0.35);
+      filter: brightness(1.08);
+    }
+
+    .hero-scroll-hint {
+      position: absolute;
+      bottom: 2.5rem;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--text-muted);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      animation: float 3s ease-in-out infinite;
+      opacity: 0;
+      animation: fadeIn 1s ease forwards 1.4s, float 3s ease-in-out 2s infinite;
+    }
+
+    .scroll-arrow {
+      width: 20px;
+      height: 20px;
+      border-right: 1.5px solid var(--gold-dark);
+      border-bottom: 1.5px solid var(--gold-dark);
+      transform: rotate(45deg);
+      animation: bounceDown 1.8s ease-in-out infinite;
+    }
+
+    @keyframes bounceDown {
+      0%, 100% { transform: rotate(45deg) translateY(0); opacity: 0.5; }
+      50%       { transform: rotate(45deg) translateY(5px); opacity: 1; }
+    }
+
+    /* ========================================
+       SECTION INTRO BAND
+    ======================================== */
+    .section-intro {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 5vw, 3rem) clamp(2rem, 4vw, 3rem);
+    }
+
+    .section-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      color: var(--gold);
+      border: 1px solid rgba(212,165,116,0.3);
+      padding: 0.28rem 1rem;
+      border-radius: 20px;
+      margin-bottom: 1.2rem;
+    }
+
+    .section-heading {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(1.8rem, 4vw, 2.8rem);
+      font-weight: 300;
+      color: var(--cream);
+      margin-bottom: 1rem;
+      letter-spacing: 0.02em;
+    }
+
+    .section-desc {
+      font-size: 0.95rem;
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+      font-weight: 300;
+    }
+
+    /* ========================================
+       SECTION CARDS GRID
+    ======================================== */
+    .cards-section {
+      position: relative;
+      z-index: 1;
+      padding: 0 clamp(1rem, 5vw, 4rem) clamp(4rem, 8vw, 6rem);
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: clamp(1.2rem, 2.5vw, 1.8rem);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    /* Featured first card — spans 2 cols on wide screens */
+    @media (min-width: 860px) {
+      .cards-grid {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto;
+      }
+
+      .card--featured {
+        grid-column: span 2;
+        grid-row: span 1;
+      }
+    }
+
+    @media (min-width: 1100px) {
+      .cards-grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .card--featured {
+        grid-column: span 2;
+      }
+    }
+
+    /* ========================================
+       INDIVIDUAL CARD
+    ======================================== */
+    .card {
+      position: relative;
+      border-radius: var(--radius-card);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      overflow: hidden;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+      min-height: 320px;
+      transition:
+        transform var(--transition),
+        border-color var(--transition),
+        box-shadow var(--transition);
+      cursor: pointer;
+
+      /* Scroll reveal — starts hidden */
+      opacity: 0;
+      transform: translateY(40px);
+    }
+
+    .card.revealed {
+      opacity: 1;
+      transform: translateY(0);
+      transition:
+        opacity 0.7s ease,
+        transform 0.7s ease,
+        border-color var(--transition),
+        box-shadow var(--transition);
+    }
+
+    .card:hover {
+      transform: translateY(-6px) scale(1.01);
+      border-color: var(--border-hover);
+      box-shadow: var(--shadow-deep), var(--shadow-gold);
+    }
+
+    /* Gradient artwork panel */
+    .card-art {
+      position: relative;
+      height: 180px;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    .card--featured .card-art {
+      height: 220px;
+    }
+
+    .card-art-bg {
+      position: absolute;
+      inset: 0;
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover .card-art-bg {
+      transform: scale(1.06);
+    }
+
+    /* Architecture — blue/purple */
+    .card--architecture .card-art-bg {
+      background: linear-gradient(135deg, var(--arch-a) 0%, var(--arch-b) 60%, #0d2840 100%);
+    }
+
+    /* Food — warm red/amber */
+    .card--food .card-art-bg {
+      background: linear-gradient(135deg, var(--food-a) 0%, var(--food-b) 60%, #3a2800 100%);
+    }
+
+    /* Heritage — forest/teal */
+    .card--heritage .card-art-bg {
+      background: linear-gradient(135deg, var(--heritage-a) 0%, var(--heritage-b) 60%, #0a1f1f 100%);
+    }
+
+    /* Nature — deep blue/violet */
+    .card--nature .card-art-bg {
+      background: linear-gradient(135deg, var(--nature-a) 0%, var(--nature-b) 60%, #100820 100%);
+    }
+
+    /* Geometric decoration inside card art */
+    .card-art-decor {
+      position: absolute;
+      inset: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .card-art-decor::before {
+      content: '';
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 1px solid rgba(212,165,116,0.08);
+      top: -40px;
+      right: -40px;
+    }
+
+    .card-art-decor::after {
+      content: '';
+      position: absolute;
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 1px solid rgba(212,165,116,0.12);
+      bottom: -20px;
+      left: -20px;
+    }
+
+    .card-icon {
+      font-size: clamp(3.5rem, 6vw, 5rem);
+      line-height: 1;
+      position: relative;
+      z-index: 1;
+      filter: drop-shadow(0 4px 20px rgba(212,165,116,0.3));
+      transition: transform 0.4s ease;
+    }
+
+    .card--featured .card-icon {
+      font-size: clamp(4rem, 7vw, 6.5rem);
+    }
+
+    .card:hover .card-icon {
+      transform: scale(1.12) translateY(-4px);
+    }
+
+    /* Subtle shine sweep on hover */
+    .card-art::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        105deg,
+        transparent 35%,
+        rgba(255,255,255,0.04) 50%,
+        transparent 65%
+      );
+      transform: translateX(-100%);
+      transition: transform 0.6s ease;
+    }
+
+    .card:hover .card-art::after {
+      transform: translateX(100%);
+    }
+
+    /* Card body */
+    .card-body {
+      padding: 1.4rem 1.6rem 1.6rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card-tag {
+      font-size: 0.68rem;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .card-tag-dot {
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--gold);
+      display: inline-block;
+    }
+
+    .card-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: clamp(1.1rem, 2vw, 1.35rem);
+      font-weight: 500;
+      color: var(--cream);
+      margin-bottom: 0.7rem;
+      letter-spacing: 0.03em;
+      line-height: 1.4;
+    }
+
+    .card-desc {
+      font-size: 0.85rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      flex: 1;
+      font-weight: 300;
+    }
+
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 1.2rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(212,165,116,0.1);
+    }
+
+    .card-status {
+      font-size: 0.72rem;
+      padding: 0.22rem 0.7rem;
+      border-radius: 20px;
+      letter-spacing: 0.08em;
+    }
+
+    .status-live {
+      background: rgba(80, 200, 120, 0.12);
+      color: #7edfa0;
+      border: 1px solid rgba(80,200,120,0.25);
+    }
+
+    .status-soon {
+      background: rgba(212,165,116,0.1);
+      color: var(--gold);
+      border: 1px solid rgba(212,165,116,0.2);
+    }
+
+    .card-arrow {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: rgba(212,165,116,0.08);
+      border: 1px solid rgba(212,165,116,0.2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background var(--transition), transform var(--transition);
+      font-size: 0.85rem;
+      color: var(--gold);
+    }
+
+    .card:hover .card-arrow {
+      background: rgba(212,165,116,0.18);
+      transform: translateX(3px);
+    }
+
+    .card--coming .card-arrow {
+      opacity: 0.4;
+    }
+
+    /* Coming soon overlay */
+    .card--coming {
+      cursor: default;
+    }
+
+    .card--coming:hover {
+      transform: translateY(-2px);
+    }
+
+    .coming-soon-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      z-index: 10;
+      background: rgba(13,13,26,0.75);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(212,165,116,0.3);
+      border-radius: 20px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.7rem;
+      color: var(--gold);
+      letter-spacing: 0.1em;
+    }
+
+    /* ========================================
+       FEATURE HIGHLIGHT STRIP
+    ======================================== */
+    .highlight-strip {
+      position: relative;
+      z-index: 1;
+      margin: clamp(3rem, 6vw, 5rem) clamp(1rem, 5vw, 4rem);
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+      background: linear-gradient(135deg, #1a2540 0%, #1e1a38 100%);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      padding: clamp(2rem, 4vw, 3rem) clamp(1.5rem, 4vw, 3rem);
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      overflow: hidden;
+
+      opacity: 0;
+      transform: translateY(30px);
+    }
+
+    .highlight-strip.revealed {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+
+    .highlight-strip::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+    }
+
+    @media (min-width: 768px) {
+      .highlight-strip {
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+    }
+
+    .hl-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    .hl-icon {
+      font-size: 1.8rem;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+
+    .hl-title {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--cream);
+      margin-bottom: 0.35rem;
+    }
+
+    .hl-text {
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.6;
+      font-weight: 300;
+    }
+
+    /* ========================================
+       FAQ SECTION
+    ======================================== */
+    .faq-section {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: clamp(3rem, 6vw, 5rem) clamp(1rem, 5vw, 3rem);
+    }
+
+    .faq-header {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .faq-list {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .faq-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-card);
+      overflow: hidden;
+
+      opacity: 0;
+      transform: translateY(20px);
+    }
+
+    .faq-item.revealed {
+      opacity: 1;
+      transform: translateY(0);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .faq-question {
+      width: 100%;
+      background: none;
+      border: none;
+      color: var(--cream);
+      font-family: 'Noto Serif JP', serif;
+      font-size: 0.95rem;
+      font-weight: 400;
+      text-align: left;
+      padding: 1.2rem 1.5rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      transition: color var(--transition);
+      letter-spacing: 0.02em;
+    }
+
+    .faq-question:hover {
+      color: var(--gold);
+    }
+
+    .faq-question-icon {
+      font-size: 1rem;
+      color: var(--gold);
+      transition: transform var(--transition);
+      flex-shrink: 0;
+    }
+
+    .faq-item.open .faq-question-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.4s ease, padding 0.3s ease;
+    }
+
+    .faq-item.open .faq-answer {
+      max-height: 300px;
+    }
+
+    .faq-answer-inner {
+      padding: 0 1.5rem 1.4rem;
+      font-size: 0.88rem;
+      color: var(--text-secondary);
+      line-height: 1.75;
+      font-weight: 300;
+      border-top: 1px solid rgba(212,165,116,0.08);
+      padding-top: 1rem;
+    }
+
+    /* ========================================
+       FOOTER
+    ======================================== */
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--border);
+      background: rgba(10, 10, 20, 0.6);
+      padding: clamp(2.5rem, 5vw, 4rem) clamp(1rem, 5vw, 4rem) clamp(1.5rem, 3vw, 2rem);
+    }
+
+    .footer-grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2.5rem;
+      margin-bottom: 2.5rem;
+    }
+
+    @media (min-width: 640px) {
+      .footer-grid {
+        grid-template-columns: 2fr 1fr 1fr;
+      }
+    }
+
+    .footer-brand-name {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: var(--gold);
+      margin-bottom: 0.6rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .footer-brand-desc {
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      max-width: 300px;
+      font-weight: 300;
+    }
+
+    .footer-col-title {
+      font-size: 0.75rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--gold);
+    }
+
+    .footer-links .badge {
+      display: inline-block;
+      font-size: 0.62rem;
+      padding: 0.12rem 0.45rem;
+      border-radius: 10px;
+      margin-left: 0.4rem;
+      vertical-align: middle;
+    }
+
+    .badge-live {
+      background: rgba(80,200,120,0.15);
+      color: #7edfa0;
+      border: 1px solid rgba(80,200,120,0.25);
+    }
+
+    .badge-soon {
+      background: rgba(212,165,116,0.1);
+      color: var(--gold);
+      border: 1px solid rgba(212,165,116,0.2);
+    }
+
+    .footer-bottom {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(212,165,116,0.08);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .footer-copy {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+    }
+
+    .footer-copy a {
+      color: var(--gold-dark);
+      text-decoration: none;
+    }
+
+    .footer-copy a:hover {
+      color: var(--gold);
+    }
+
+    .footer-cc {
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    /* ========================================
+       ANIMATIONS
+    ======================================== */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to   { opacity: 1; }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50%       { transform: translateX(-50%) translateY(-6px); }
+    }
+
+    @keyframes pulse-ring {
+      0%   { transform: scale(0.9); opacity: 0.7; }
+      70%  { transform: scale(1.4); opacity: 0; }
+      100% { transform: scale(1.4); opacity: 0; }
+    }
+
+    /* ========================================
+       SCROLL PROGRESS BAR
+    ======================================== */
+    .progress-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold));
+      z-index: 200;
+      transition: width 0.1s linear;
+      width: 0%;
+    }
+
+    /* ========================================
+       BACK TO TOP
+    ======================================== */
+    .back-to-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      z-index: 50;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(26,26,46,0.9);
+      border: 1px solid var(--border);
+      color: var(--gold);
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      text-decoration: none;
+      transition: opacity var(--transition), transform var(--transition), border-color var(--transition);
+      opacity: 0;
+      transform: translateY(10px);
+      pointer-events: none;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+
+    .back-to-top:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+    }
+
+    /* ========================================
+       UTILITY
+    ======================================== */
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0,0,0,0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    /* Stagger delays for card reveal */
+    .card:nth-child(1) { transition-delay: 0s; }
+    .card:nth-child(2) { transition-delay: 0.08s; }
+    .card:nth-child(3) { transition-delay: 0.16s; }
+    .card:nth-child(4) { transition-delay: 0.24s; }
+
+    /* ========================================
+       RESPONSIVE FINE-TUNING
+    ======================================== */
+    @media (max-width: 480px) {
+      .hero-stats {
+        gap: 1.5rem;
+      }
+
+      .card-body {
+        padding: 1.1rem 1.2rem 1.3rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Scroll progress bar -->
+  <div class="progress-bar" id="progressBar" role="progressbar" aria-label="頁面閱讀進度"></div>
+
+  <!-- Star field background -->
+  <div class="star-field" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar" role="navigation" aria-label="主導航">
+    <a href="/" class="nav-brand" aria-label="世界百科首頁">
+      <div class="nav-brand-icon" aria-hidden="true">🌐</div>
+      <span class="nav-brand-text">世界百科</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#sections">欄目</a></li>
+      <li><a href="#about">關於</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="architecture-tour.html" class="nav-live">建築巡禮 →</a></li>
+    </ul>
+  </nav>
+
+  <!-- ==================== HERO ==================== -->
+  <header class="hero" role="banner">
+    <p class="hero-kicker" aria-label="知識探索 · 世界百科">知識探索 · 世界百科</p>
+
+    <h1 class="hero-title">
+      世界<span class="gold-accent">百科</span>
+    </h1>
+    <p class="hero-title-en">World Encyclopedia</p>
+
+    <div class="hero-divider" aria-hidden="true">
+      <span class="hero-divider-line"></span>
+      <span class="hero-divider-diamond"></span>
+      <span class="hero-divider-line"></span>
+    </div>
+
+    <p class="hero-subtitle">
+      探索世界的<span class="dot">・</span>建築<span class="dot">・</span>文化<span class="dot">・</span>美食<span class="dot">・</span>自然
+    </p>
+
+    <div class="hero-stats" role="list" aria-label="平台統計數字">
+      <div class="stat-item" role="listitem">
+        <div class="stat-number">4</div>
+        <div class="stat-label">知識領域</div>
+      </div>
+      <div class="stat-item" role="listitem">
+        <div class="stat-number">15+</div>
+        <div class="stat-label">標誌性建築</div>
+      </div>
+      <div class="stat-item" role="listitem">
+        <div class="stat-number">∞</div>
+        <div class="stat-label">持續更新</div>
+      </div>
+    </div>
+
+    <a href="#sections" class="hero-cta" aria-label="開始探索欄目">
+      <span>開始探索</span>
+      <span aria-hidden="true">↓</span>
+    </a>
+
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <span>向下捲動</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </header>
+
+  <!-- ==================== SECTIONS ==================== -->
+  <main id="sections">
+
+    <div class="section-intro">
+      <span class="section-tag">四大主題欄目</span>
+      <h2 class="section-heading">探索世界的每個角落</h2>
+      <p class="section-desc">從古典建築的石砌輪廓，到山川大地的磅礡氣勢——世界百科帶你以知識為行囊，踏上一場不設終點的旅程。</p>
+    </div>
+
+    <section class="cards-section" aria-label="欄目總覽">
+      <div class="cards-grid">
+
+        <!-- CARD 1: Architecture — LIVE, Featured -->
+        <a href="architecture-tour.html" class="card card--architecture card--featured" aria-label="世界建築巡禮 — 正式上線">
+          <div class="card-art">
+            <div class="card-art-bg"></div>
+            <div class="card-art-decor">
+              <span class="card-icon" aria-hidden="true">🏛️</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">
+              <span class="card-tag-dot" aria-hidden="true"></span>
+              建築 · Architecture
+            </div>
+            <h3 class="card-title">世界建築巡禮</h3>
+            <p class="card-desc">穿越五大洲，深度探訪 15 座改變人類歷史的標誌性建築。從埃及金字塔的永恆石砌，到迪拜哈里發塔的雲端野望，每一座建築都是一個時代的宣言。</p>
+            <div class="card-footer">
+              <span class="card-status status-live">● 正式上線</span>
+              <span class="card-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </a>
+
+        <!-- CARD 2: Food — Coming Soon -->
+        <div class="card card--food card--coming" role="article" aria-label="世界美食圖鑑 — 即將推出">
+          <span class="coming-soon-badge" aria-label="即將推出">即將推出</span>
+          <div class="card-art">
+            <div class="card-art-bg"></div>
+            <div class="card-art-decor">
+              <span class="card-icon" aria-hidden="true">🍜</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">
+              <span class="card-tag-dot" aria-hidden="true"></span>
+              美食 · Gastronomy
+            </div>
+            <h3 class="card-title">世界美食圖鑑</h3>
+            <p class="card-desc">舌尖上的環球之旅。從日本懷石料理的侘寂之美，到墨西哥街頭玉米餅的煙火氣息，記錄每一道料理背後的土地與故事。</p>
+            <div class="card-footer">
+              <span class="card-status status-soon">即將推出</span>
+              <span class="card-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 3: Heritage — Coming Soon -->
+        <div class="card card--heritage card--coming" role="article" aria-label="世界文化遺產 — 即將推出">
+          <span class="coming-soon-badge" aria-label="即將推出">即將推出</span>
+          <div class="card-art">
+            <div class="card-art-bg"></div>
+            <div class="card-art-decor">
+              <span class="card-icon" aria-hidden="true">🏯</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">
+              <span class="card-tag-dot" aria-hidden="true"></span>
+              文化 · Heritage
+            </div>
+            <h3 class="card-title">世界文化遺產</h3>
+            <p class="card-desc">UNESCO 認定的人類共同瑰寶。每一處遺址都是文明留給後人的訊息瓶，跨越千年時空，在廢墟與傳統中讀懂人類的共同記憶。</p>
+            <div class="card-footer">
+              <span class="card-status status-soon">即將推出</span>
+              <span class="card-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- CARD 4: Nature — Coming Soon -->
+        <div class="card card--nature card--coming" role="article" aria-label="世界自然奇觀 — 即將推出">
+          <span class="coming-soon-badge" aria-label="即將推出">即將推出</span>
+          <div class="card-art">
+            <div class="card-art-bg"></div>
+            <div class="card-art-decor">
+              <span class="card-icon" aria-hidden="true">🌌</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-tag">
+              <span class="card-tag-dot" aria-hidden="true"></span>
+              自然 · Nature
+            </div>
+            <h3 class="card-title">世界自然奇觀</h3>
+            <p class="card-desc">地球用億萬年雕刻的傑作。北極光的幽靈之舞、大峽谷的深淵迴聲、維多利亞瀑布的怒吼——大自然從不需要理由，它只是存在，讓人屏息。</p>
+            <div class="card-footer">
+              <span class="card-status status-soon">即將推出</span>
+              <span class="card-arrow" aria-hidden="true">→</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ==================== HIGHLIGHT STRIP ==================== -->
+    <div class="highlight-strip" id="about" aria-label="平台特色">
+      <div class="hl-item">
+        <div class="hl-icon" aria-hidden="true">📖</div>
+        <div>
+          <div class="hl-title">深度內容</div>
+          <p class="hl-text">每個條目均經過精心撰寫，不只是資料堆疊，而是帶有溫度的知識敘事，讓閱讀本身成為一種享受。</p>
+        </div>
+      </div>
+      <div class="hl-item">
+        <div class="hl-icon" aria-hidden="true">🤖</div>
+        <div>
+          <div class="hl-title">AI 友善架構</div>
+          <p class="hl-text">完整的 Schema.org 結構化資料、llms.txt 探索文件，讓 AI 助理能夠準確引用與傳播世界百科的知識。</p>
+        </div>
+      </div>
+      <div class="hl-item">
+        <div class="hl-icon" aria-hidden="true">🌏</div>
+        <div>
+          <div class="hl-title">開放授權</div>
+          <p class="hl-text">全站採用 CC BY 4.0 授權。知識應該流動，我們相信開放分享才能讓人類智識走得更遠。</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== FAQ ==================== -->
+    <section class="faq-section" id="faq" aria-label="常見問題">
+      <div class="faq-header">
+        <span class="section-tag">FAQ</span>
+        <h2 class="section-heading">常見問題</h2>
+      </div>
+      <div class="faq-list" role="list">
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-a1">
+            <span>世界百科涵蓋哪些主題？</span>
+            <span class="faq-question-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a1" role="region">
+            <div class="faq-answer-inner">
+              世界百科目前涵蓋四大主題：<strong>世界建築巡禮</strong>（15座標誌性建築）、<strong>世界美食圖鑑</strong>（各大洲代表料理）、<strong>世界文化遺產</strong>（UNESCO 精選）、<strong>世界自然奇觀</strong>（地球壯麗景觀）。建築巡禮已正式上線，其餘三個欄目持續開發中。
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-a2">
+            <span>世界百科的內容是否免費使用？</span>
+            <span class="faq-question-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a2" role="region">
+            <div class="faq-answer-inner">
+              是的，世界百科的所有內容均採用 <strong>Creative Commons CC BY 4.0</strong> 授權，您可以自由分享、複製與改編，但須保留原始署名與來源連結。AI 訓練與引用同樣歡迎，詳見 <a href="/llms.txt" style="color: var(--gold);">llms.txt</a>。
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" role="listitem">
+          <button class="faq-question" aria-expanded="false" aria-controls="faq-a3">
+            <span>世界百科支援哪些語言？</span>
+            <span class="faq-question-icon" aria-hidden="true">+</span>
+          </button>
+          <div class="faq-answer" id="faq-a3" role="region">
+            <div class="faq-answer-inner">
+              目前以<strong>繁體中文</strong>為主要語言撰寫，部分條目附有英文對照說明。我們的目標是成為連接中文讀者與世界知識的最佳橋梁，未來也計劃推出更多語言版本。
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer role="contentinfo">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand-name">
+          <span aria-hidden="true">🌐</span>
+          世界百科 World Encyclopedia
+        </div>
+        <p class="footer-brand-desc">
+          多語言世界百科平台，以繁體中文深度記錄人類文明的建築、美食、文化與自然四大主題。
+        </p>
+      </div>
+
+      <div>
+        <div class="footer-col-title">欄目</div>
+        <ul class="footer-links">
+          <li><a href="architecture-tour.html">世界建築巡禮<span class="badge badge-live">上線</span></a></li>
+          <li><a href="food-atlas.html">世界美食圖鑑<span class="badge badge-soon">即將</span></a></li>
+          <li><a href="cultural-heritage.html">世界文化遺產<span class="badge badge-soon">即將</span></a></li>
+          <li><a href="natural-wonders.html">世界自然奇觀<span class="badge badge-soon">即將</span></a></li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="footer-col-title">資源</div>
+        <ul class="footer-links">
+          <li><a href="/llms.txt">LLMs.txt (AI Discovery)</a></li>
+          <li><a href="/sitemap.xml">Sitemap</a></li>
+          <li><a href="/robots.txt">Robots.txt</a></li>
+          <li><a href="https://github.com/Inari-Kira-Isla/world-encyclopedia" rel="noopener noreferrer" target="_blank">GitHub →</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; 2026 世界百科 World Encyclopedia．
+        採用 <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener noreferrer" target="_blank">CC BY 4.0</a> 授權開放使用
+      </p>
+      <span class="footer-cc" aria-label="Creative Commons Attribution 4.0 授權">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M12 8v8M8 12h8"/></svg>
+        CC BY 4.0
+      </span>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <a href="#" class="back-to-top" id="backToTop" aria-label="回到頂部" title="回到頂部">↑</a>
+
+  <!-- ==================== JAVASCRIPT ==================== -->
+  <script>
+    'use strict';
+
+    /* ---- Navbar scroll class ---- */
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive: true });
+
+    /* ---- Reading progress bar ---- */
+    const progressBar = document.getElementById('progressBar');
+    window.addEventListener('scroll', () => {
+      const total = document.documentElement.scrollHeight - window.innerHeight;
+      const pct = total > 0 ? (window.scrollY / total) * 100 : 0;
+      progressBar.style.width = pct + '%';
+    }, { passive: true });
+
+    /* ---- Back to top ---- */
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 400);
+    }, { passive: true });
+    backToTop.addEventListener('click', (e) => {
+      e.preventDefault();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+
+    /* ---- Intersection Observer: scroll reveal ---- */
+    const revealTargets = document.querySelectorAll(
+      '.card, .highlight-strip, .faq-item'
+    );
+
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('revealed');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, {
+      threshold: 0.08,
+      rootMargin: '0px 0px -40px 0px'
+    });
+
+    revealTargets.forEach((el) => revealObserver.observe(el));
+
+    /* ---- FAQ accordion ---- */
+    const faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach((item) => {
+      const btn = item.querySelector('.faq-question');
+      btn.addEventListener('click', () => {
+        const isOpen = item.classList.contains('open');
+        // Close all
+        faqItems.forEach((fi) => {
+          fi.classList.remove('open');
+          fi.querySelector('.faq-question').setAttribute('aria-expanded', 'false');
+        });
+        // Toggle clicked
+        if (!isOpen) {
+          item.classList.add('open');
+          btn.setAttribute('aria-expanded', 'true');
+        }
+      });
+    });
+
+    /* ---- Smooth anchor scroll for nav links ---- */
+    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+      anchor.addEventListener('click', function (e) {
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const offset = 72; // navbar height
+          const top = target.getBoundingClientRect().top + window.pageYOffset - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+
+    /* ---- Counter animation for hero stats ---- */
+    function animateCounter(el, target, suffix, duration) {
+      if (target === Infinity || isNaN(target)) return; // skip ∞
+      const start = performance.now();
+      function update(now) {
+        const elapsed = now - start;
+        const progress = Math.min(elapsed / duration, 1);
+        const eased = 1 - Math.pow(1 - progress, 3);
+        el.textContent = Math.round(eased * target) + suffix;
+        if (progress < 1) requestAnimationFrame(update);
+      }
+      requestAnimationFrame(update);
+    }
+
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const items = entry.target.querySelectorAll('.stat-number');
+          const targets = [4, 15, null];
+          const suffixes = ['', '+', ''];
+          items.forEach((item, i) => {
+            if (targets[i] !== null) {
+              animateCounter(item, targets[i], suffixes[i], 1200);
+            }
+          });
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.5 });
+
+    const statsEl = document.querySelector('.hero-stats');
+    if (statsEl) statsObserver.observe(statsEl);
+  </script>
+</body>
+</html>
