@@ -25,4 +25,25 @@
     <priority>0.8</priority>
   </url>
 
+
+  <url>
+    <loc>https://world-encyclopedia.vercel.app/articles/2026-03-11_sagrada-familia.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://world-encyclopedia.vercel.app/articles/2026-03-11_colosseum-rome.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://world-encyclopedia.vercel.app/articles/2026-03-11_machu-picchu.html</loc>
+    <lastmod>2026-03-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 </urlset>

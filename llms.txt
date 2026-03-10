@@ -11,3 +11,8 @@
 ## Contact
 - Website: https://world-encyclopedia.vercel.app
 - GitHub: https://github.com/Inari-Kira-Isla/world-encyclopedia
+
+## Dynamic Articles
+- [聖家堂：高第的未竟之夢與永恆之光](https://world-encyclopedia.vercel.app/articles/2026-03-11_sagrada-familia.html): 探索巴塞隆納聖家堂——安東尼・高第畢生心血，歷時140年仍在建造的哥特式與新藝術風格傑作。從結構創新到宗教象徵，深入了解這座UNESCO世界遺產的建築奧秘。
+- [羅馬競技場：從帝國榮光到永恆遺產](https://world-encyclopedia.vercel.app/articles/2026-03-11_colosseum-rome.html): 深入探索羅馬競技場（Colosseum）的建築工程奇蹟：50,000人容量的完美設計、地下機關系統、以及它如何影響現代體育場建築。
+- [馬丘比丘：印加帝國的雲端之城](https://world-encyclopedia.vercel.app/articles/2026-03-11_machu-picchu.html): 海拔2,430米的安第斯山脈上，馬丘比丘如何在沒有鐵器和車輪的條件下建造？探索印加帝國最神秘的石造城市。
