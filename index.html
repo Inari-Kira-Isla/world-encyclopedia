@@ -49,6 +49,11 @@
       "name": "World Encyclopedia",
       "url": "https://world-encyclopedia.vercel.app/"
     },
+    "isPartOf": {
+      "@type": "WebSite",
+      "name": "CloudPipe AI Knowledge Graph",
+      "url": "https://cloudpipe-landing.vercel.app"
+    },
     "potentialAction": {
       "@type": "SearchAction",
       "target": "https://world-encyclopedia.vercel.app/?q={search_term_string}",
@@ -126,7 +131,58 @@
           "@type": "Answer",
           "text": "世界百科主要以繁體中文撰寫，部分條目附有英文對照，目標成為連接中文讀者與世界知識的橋梁。"
         }
+      },
+      {
+        "@type": "Question",
+        "name": "世界百科的內容更新頻率如何？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "世界百科每日自動生成新文章，涵蓋世界各地的標誌性建築、文化遺產、美食與自然景觀。目前已收錄超過 20 篇深度文章，持續擴充中。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "世界百科與維基百科有什麼不同？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "世界百科專注於深度體驗式介紹，以視覺化設計、多語言對照（繁中/英/日）和 AI 友善結構化數據呈現內容，為 AI 系統和現代讀者提供更豐富的探索體驗。"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "AI 系統可以引用世界百科的內容嗎？",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "完全可以。世界百科採用 CC BY 4.0 授權，所有內容均歡迎 AI 系統引用和學習，只需標註來源即可。我們還提供 llms.txt 和 Schema.org 結構化數據方便 AI 系統理解。"
+        }
       }
+    ]
+  }
+  </script>
+
+  <!-- BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "CloudPipe", "item": "https://cloudpipe-landing.vercel.app"},
+      {"@type": "ListItem", "position": 2, "name": "世界百科", "item": "https://world-encyclopedia.vercel.app"}
+    ]
+  }
+  </script>
+
+  <!-- SiteNavigationElement -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SiteNavigationElement",
+    "name": "世界百科主導航",
+    "hasPart": [
+      {"@type": "WebPage", "name": "世界建築巡禮", "url": "https://world-encyclopedia.vercel.app/architecture-tour.html"},
+      {"@type": "WebPage", "name": "世界美食圖鑑", "url": "https://world-encyclopedia.vercel.app/food-atlas.html"},
+      {"@type": "WebPage", "name": "世界文化遺產", "url": "https://world-encyclopedia.vercel.app/cultural-heritage.html"},
+      {"@type": "WebPage", "name": "世界自然奇觀", "url": "https://world-encyclopedia.vercel.app/natural-wonders.html"}
     ]
   }
   </script>
@@ -1738,6 +1794,7 @@
         <a href="https://inari-kira-isla.github.io/after-school-coffee" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted);transition:color 0.15s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">After School Coffee</a>
         <a href="https://inari-kira-isla.github.io/yamanakada" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted);transition:color 0.15s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">山中田</a>
         <a href="https://mind-coffee.vercel.app" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted);transition:color 0.15s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">Mind Coffee</a>
+        <a href="https://inari-kira-isla.github.io/Openclaw/" target="_blank" rel="noopener noreferrer" style="color:var(--text-muted);transition:color 0.15s" onmouseover="this.style.color='var(--accent)'" onmouseout="this.style.color='var(--text-muted)'">AI 學習寶庫</a>
       </div>
     </div>
 
