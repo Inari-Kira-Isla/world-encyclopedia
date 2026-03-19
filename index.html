@@ -1908,6 +1908,549 @@
     </section>
     <!-- DYNAMIC_ARTICLES_END -->
 
+  
+<!-- DYNAMIC-DB-CONTENT-START -->
+  <style>
+    .knowledge-section {
+      max-width: 1100px; margin: 3rem auto; padding: 2rem 2rem 2.5rem;
+      border-top: 1px solid rgba(212,165,116,0.18);
+    }
+    .knowledge-section h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.6rem; font-weight: 500; color: #d4a574;
+      margin-bottom: 0.3rem; letter-spacing: 0.03em;
+    }
+    .section-subtitle {
+      font-size: 0.85rem; color: #9a9590; margin-bottom: 1.5rem;
+    }
+    .trends-grid, .facts-grid { display: grid; gap: 1rem; }
+    .trend-item, .fact-item {
+      background: #16213e; border-radius: 8px; padding: 1rem 1.2rem;
+      border: 1px solid rgba(212,165,116,0.12);
+      transition: border-color 0.2s;
+    }
+    .trend-item:hover, .fact-item:hover {
+      border-color: rgba(212,165,116,0.35);
+    }
+    .trend-header {
+      display: flex; align-items: center; gap: 0.8rem;
+      margin-bottom: 0.5rem; font-size: 0.8rem;
+    }
+    .trend-category { color: #b8b0a4; }
+    .trend-date { color: #786e64; margin-left: auto; }
+    .trend-title {
+      font-size: 1rem; font-weight: 500; color: #f5f0e8;
+      margin: 0 0 0.4rem; line-height: 1.5;
+    }
+    .trend-impact { font-size: 0.88rem; color: #b8b0a4; line-height: 1.6; margin: 0; }
+    .fact-badge {
+      display: inline-block; font-size: 0.7rem; font-weight: 600;
+      background: rgba(212,165,116,0.15); color: #d4a574;
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 0.4rem;
+    }
+    .fact-entity {
+      display: inline-block; font-size: 0.78rem; color: #9a9590;
+      margin-left: 0.5rem;
+    }
+    .fact-text { font-size: 0.92rem; color: #e8e4dc; line-height: 1.7; margin: 0.3rem 0 0; }
+    .faq-list { max-width: 900px; }
+    .faq-item {
+      border-bottom: 1px solid rgba(212,165,116,0.12);
+      padding: 0.8rem 0;
+    }
+    .faq-item summary {
+      cursor: pointer; font-size: 1rem; font-weight: 500;
+      color: #f5f0e8; line-height: 1.6; list-style: none;
+      padding-left: 1.5rem; position: relative;
+    }
+    .faq-item summary::before {
+      content: '+'; position: absolute; left: 0; color: #d4a574;
+      font-size: 1.2rem; font-weight: 700; transition: transform 0.2s;
+    }
+    .faq-item[open] summary::before { content: '−'; }
+    .faq-item p {
+      font-size: 0.92rem; color: #b8b0a4; line-height: 1.8;
+      padding: 0.6rem 0 0.2rem 1.5rem; margin: 0;
+    }
+  </style>
+  <section id="trends-intelligence" class="knowledge-section">
+    <h2>最新市場趨勢</h2>
+    <p class="section-subtitle">來自 CloudPipe 趨勢資料庫的即時市場情報 | 更新於 2026-03-19</p>
+    <div class="trends-grid">
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
+          <span class="trend-category">能源</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">Iran戰爭關閉荷姆茲海峽推高油價破百</h3>
+        <p class="trend-impact">燃料成本暴增57%，物流成本結構性上升 | 冷鏈運輸成本急劇上升，保鮮期縮短風險增加 | 150艘油輪和LNG船滯留荷姆茲海峽，全球20%石油運輸中斷 | 能源密集型商品成本大幅上升</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
+          <span class="trend-category">能源</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">荷姆茲海峽航運大規模中斷</h3>
+        <p class="trend-impact">亞歐貿易路線受阻，供應鏈面臨斷裂風險 | 中東海鮮進口受阻，需調整採購區域 | 主要航線完全中斷，船期嚴重延誤 | 石油化工產品供應緊張，庫存壓力增大</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
+          <span class="trend-category">地緣政治</span>
+          <span class="trend-date">2026-03-18</span>
+        </div>
+        <h3 class="trend-title">荷姆茲海峽實質封鎖癱瘓全球能源運輸</h3>
+        <p class="trend-impact">供應鏈全面重組需求 | 中東海鮮進口完全中斷 | 全球航運主幹道完全中斷 | 批發商面臨嚴重缺貨</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff4444;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">CRITICAL</span>
+          <span class="trend-category">地緣政治</span>
+          <span class="trend-date">2026-03-18</span>
+        </div>
+        <h3 class="trend-title">美中貿易戰關稅升至145%</h3>
+        <p class="trend-impact">消費品價格大幅上升影響銷售 | 電子產品成本暴漲，稀土供應面臨風險 | 中國商品批發成本激增影響利潤率</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">地緣政治</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">台海緊張加劇半導體供應鏈風險</h3>
+        <p class="trend-impact">全球科技供應鏈重組，物流網絡面臨根本性調整 | 冷鏈設備和包裝材料可能受半導體短缺影響 | 科技產品運輸集中度過高，一旦台海衝突將導致全面中斷 | 電子產品供應短缺風險極高</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">航運</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">赫伯羅德等主要航運公司實施緊急燃油附加費</h3>
+        <p class="trend-impact">冷凍海鮮運輸成本每TEU增加$225 | 集裝箱運輸成本大幅增加$60-225/TEU | 進口商品成本上升，利潤空間縮小</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">航運</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">全球船用燃料價格暴漲30-40%</h3>
+        <p class="trend-impact">物流成本全面上漲，影響供應鏈效率 | 冷鏈運輸成本激增，影響海鮮產品競爭力 | 航運公司燃料成本暴增，迫使實施緊急燃油附加費</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">匯率</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">日圓實際有效匯率創53年新低</h3>
+        <p class="trend-impact">跨境支付和匯兌服務需求增加 | 日本商品零售價格競爭力提升 | 日本海鮮進口成本顯著下降 | 從日本進口商品成本大幅降低</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">食品供應</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">US Cattle Herd Reaches 75-Year Low</h3>
+        <p class="trend-impact">Severe beef shortage driving menu changes and price increases | Increased demand as beef alternative | Beef wholesale prices reaching unprecedented levels</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">能源</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">中東戰爭推升油價創歷史新高</h3>
+        <p class="trend-impact">陸運、空運成本全面上漲，物流成本壓力巨大 | 冷鏈運輸成本激增，海鮮產品價格面臨上漲壓力 | 燃油成本大幅上升，海運公司被迫提高運價 | 能源成本上升壓縮毛利率，需轉嫁成本給下游</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">航運</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">全球主要海運公司實施緊急燃油附加費</h3>
+        <p class="trend-impact">整體物流成本上升15-20% | 生鮮海產出口成本大增 | 承運商營運成本暴增，被迫轉嫁給托運人 | 進口商品成本提高，影響零售價格</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">匯率</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">日圓創53年新低，逼近156價位</h3>
+        <p class="trend-impact">日本商品進口成本大幅上升 | 日本海鮮進口成本增加 | 日系產品批發利潤受壓</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">監管</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">美國啟動史上最大規模Section 301調查</h3>
+        <p class="trend-impact">亞洲seafood出口商面臨關稅威脅 | 貿易路線可能重新配置 | 貿易路線可能重組 | 亞洲科技供應鏈面臨高關稅威脅 | 科技產品可能面臨新關稅 | 面臨新關稅風險，進口成本可能大幅上升 | 供應商關稅風險劇增</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">地緣政治</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">China-Japan Diplomatic Crisis Deepens with Travel and Trade Restrictions</h3>
+        <p class="trend-impact">Cross-border e-commerce and luxury goods trade disrupted | China maintains seafood import ban from Japan | Bilateral cargo volumes decline amid diplomatic tensions | 40%+ flight cancellations devas...</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">氣候</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">全球零日乾旱威脅十年內降臨</h3>
+        <p class="trend-impact">食品生產用水嚴重短缺 | 淡水養殖業面臨存續危機 | 旅遊目的地水資源限制</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">航運</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">中东冲突触发全球燃料价格暴涨</h3>
+        <p class="trend-impact">物流成本全面上升 | 生鲜运输成本大幅增加 | 海运燃料成本激增40%</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">蟹肉价格急剧上涨，多重因素叠加</h3>
+        <p class="trend-impact">蟹肉类菜品面临严重成本压力 | 蟹肉采购成本暴涨 | 需重新评估蟹肉产品线盈利性</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">科技</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">Claude 4.6模型發布並超越ChatGPT市場地位</h3>
+        <p class="trend-impact">長上下文能力推動AI應用場景擴展 | AI對話模型市場重新洗牌，Claude挑戰OpenAI霸主地位</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">消費</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">Z世代推動中國咖啡市場年增20%達2500億</h3>
+        <p class="trend-impact">年輕消費者驅動市場快速擴張 | 社交化消費場景需求增加 | 線上線下融合的零售模式受青睞</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">匯率</span>
+          <span class="trend-date">2026-03-19</span>
+        </div>
+        <h3 class="trend-title">日本央行關鍵決策會議引發市場關注</h3>
+        <p class="trend-impact">匯率波動帶來外匯交易機會 | 進口商品價格調整壓力 | 日本進口海產成本大幅波動 | 進口商品成本波動加劇</p>
+      </div>
+    </div>
+  </section>
+  <section id="industry-knowledge" class="knowledge-section">
+    <h2>行業知識庫精選</h2>
+    <p class="section-subtitle">精選自 1 個行業資料庫 | 共 30 條知識</p>
+    <div class="facts-grid">
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">中國出境遊超1.75億人次 消費達2800億美元</span>
+        <p class="fact-text">[趨勢] 中國出境遊超1.75億人次 消費達2800億美元: 全球旅遊目的地收入大幅增長 | 建議: 針對中國遊客優化服務體驗</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">2026年FIFA世界盃倒數100日籌備</span>
+        <p class="fact-text">[趨勢] 2026年FIFA世界盃倒數100日籌備: 全球遊客湧入主辦城市，酒店預訂量暴增 | 建議: 提前佈局住宿與交通服務，制定動態定價策略</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">2026 FIFA 世界盃擴軍至 48 隊創紀錄</span>
+        <p class="fact-text">[趨勢] 2026 FIFA 世界盃擴軍至 48 隊創紀錄: 預計帶動千萬級遊客流量，酒店預訂激增 | 建議: 提前布局主辦城市周邊住宿和交通服務</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">China-Japan Diplomatic Crisis Deepens with Travel and Trade Restrictions</span>
+        <p class="fact-text">[趨勢] China-Japan Diplomatic Crisis Deepens with Travel and Trade Restrictions: 40%+ flight cancellations devastate Japan-bound Chinese tourism | 建議: Diversify tourism markets away from China dependence</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">全球零日乾旱威脅十年內降臨</span>
+        <p class="fact-text">[趨勢] 全球零日乾旱威脅十年內降臨: 旅遊目的地水資源限制 | 建議: 開發節水型旅遊產品</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">澳門衛星賭場全面關閉衝擊商業地產，拖欠率升至5.4%</span>
+        <p class="fact-text">[趨勢] 澳門衛星賭場全面關閉衝擊商業地產，拖欠率升至5.4%: 旅遊業態面臨結構性調整 | 建議: 發展非博彩旅遊吸引力</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">可可價格較2024年初飆升300%</span>
+        <p class="fact-text">[趨勢] 可可價格較2024年初飆升300%: 酒店甜點成本增加 | 建議: 調整菜單結構，推出非巧克力甜點</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">大灣區餐飲業數字化轉型加速</span>
+        <p class="fact-text">[趨勢] 大灣區餐飲業數字化轉型加速: 體驗式餐飲吸引遊客 | 建議: 結合在地文化打造特色體驗</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">香港餐飲業面臨市場挑戰加劇</span>
+        <p class="fact-text">[趨勢] 香港餐飲業面臨市場挑戰加劇: 餐飲選擇可能減少，影響旅遊體驗 | 建議: 支持優質餐廳，維護旅遊吸引力</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">台灣外送平台專法實施大幅提升營運成本</span>
+        <p class="fact-text">[趨勢] 台灣外送平台專法實施大幅提升營運成本: 觀光客外送費用增加 | 建議: 推廣堂食體驗作為賣點</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">亞太旅遊全面復甦達2019年104%水準</span>
+        <p class="fact-text">[趨勢] 亞太旅遊全面復甦達2019年104%水準: 旅遊收入增長超越遊客數量 | 建議: 專注高價值遊客市場</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">亞歐航線機票價格因地緣衝突暴漲200%</span>
+        <p class="fact-text">[趨勢] 亞歐航線機票價格因地緣衝突暴漲200%: 亞歐旅遊需求大幅下降 | 建議: 推廣區域內短途旅遊替代</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">台灣餐飲業缺工率達70%，月薪僅34,830元</span>
+        <p class="fact-text">[趨勢] 台灣餐飲業缺工率達70%，月薪僅34,830元: 餐飲服務品質影響整體旅遊體驗 | 建議: 加強員工培訓，提升服務效率</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">YOASOBI亞洲史上最大規模巡演</span>
+        <p class="fact-text">[趨勢] YOASOBI亞洲史上最大規模巡演: 粉絲跨國追星帶動短期旅遊熱潮 | 建議: 推出演唱會+旅遊套裝行程</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">伊朗世界盃參賽地緣政治風險</span>
+        <p class="fact-text">[趨勢] 伊朗世界盃參賽地緣政治風險: 賽程變動影響遊客行程規劃 | 建議: 提供靈活退改政策降低消費者風險</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">中日外交危機持續：航班取消率超40%</span>
+        <p class="fact-text">[趨勢] 中日外交危機持續：航班取消率超40%: 中日旅遊業遭受重創，航線大幅減少 | 建議: 開發替代市場，加強東南亞旅遊路線</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">亞洲巨星演唱會巡迴潮</span>
+        <p class="fact-text">[趨勢] 亞洲巨星演唱會巡迴潮: 粉絲跨國追星帶動觀光收入 | 建議: 與演唱會主辦方合作推出粉絲專屬旅遊套餐</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">中國GDP增長預期下調至4.2%</span>
+        <p class="fact-text">[趨勢] 中國GDP增長預期下調至4.2%: 中國出境旅遊需求疲軟 | 建議: 重點開發其他亞洲市場客源</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">中日外交風波持續升級：台灣言論引發全面制裁</span>
+        <p class="fact-text">[趨勢] 中日外交風波持續升級：台灣言論引發全面制裁: 中國遊客大幅減少，日本旅遊業收入暴跌 | 建議: 轉向其他亞洲市場，發展國內旅遊</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">ASEAN Region Disaster Surge - 69 Events in March Week 10</span>
+        <p class="fact-text">[趨勢] ASEAN Region Disaster Surge - 69 Events in March Week 10: Tourist destinations affected by flooding and storm damage | 建議: Develop rapid recovery and communication strategies</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">美國通脹持續高企，地緣衝突推高能源成本</span>
+        <p class="fact-text">[趨勢] 美國通脹持續高企，地緣衝突推高能源成本: 交通成本上升影響旅遊意願 | 建議: 推廣本地旅遊產品，調整定價策略</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">Taiwan Policy Tensions Escalate in Cross-Strait Relations</span>
+        <p class="fact-text">[趨勢] Taiwan Policy Tensions Escalate in Cross-Strait Relations: Cross-strait tourism affected by political tensions | 建議: Focus on third-country Chinese tourist markets</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">澳門肉類價格維持高位</span>
+        <p class="fact-text">[趨勢] 澳門肉類價格維持高位: 餐廳可能減少肉類份量 | 建議: 推廣澳門特色海鮮料理</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">香港餐飲業轉型壓力加劇</span>
+        <p class="fact-text">[趨勢] 香港餐飲業轉型壓力加劇: 餐廳服務模式改變 | 建議: 整合線上線下體驗，提升遊客用餐便利性</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">澳洲央行3月17日升息至4.1%</span>
+        <p class="fact-text">[趨勢] 澳洲央行3月17日升息至4.1%: 高利率可能減少旅遊支出 | 建議: 專注於國內和高價值客群</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">亞太零售物業市場2026年強勁復蘇，租賃需求超越2025年</span>
+        <p class="fact-text">[趨勢] 亞太零售物業市場2026年強勁復蘇，租賃需求超越2025年: 旅遊零售配套需求增長 | 建議: 投資旅遊熱點地區的零售物業</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">中日外交危機持續深化，經濟制裁擴大</span>
+        <p class="fact-text">[趨勢] 中日外交危機持續深化，經濟制裁擴大: 中日航班大幅取消，旅遊收入銳減 | 建議: 轉向東南亞市場分散風險</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">美中2026年將舉行4次高層會晤，亞洲政策競爭加劇</span>
+        <p class="fact-text">[趨勢] 美中2026年將舉行4次高層會晤，亞洲政策競爭加劇: 簽證政策可能隨外交關係波動 | 建議: 提前辦理多國簽證備用</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">台灣外送專法衝擊餐飲生態</span>
+        <p class="fact-text">[趨勢] 台灣外送專法衝擊餐飲生態: 對觀光業影響相對有限 | 建議: 關注外送成本對餐飲合作夥伴的衝擊</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">趨勢</span>
+        <span class="fact-entity">全球食品價格2月暴漲2.1%</span>
+        <p class="fact-text">[趨勢] 全球食品價格2月暴漲2.1%: 餐飲成本上升影響套餐定價 | 建議: 推出固定價格套餐，減少食材損耗</p>
+      </div>
+    </div>
+  </section>
+  <section id="dynamic-faq" class="knowledge-section">
+    <h2>常見問題</h2>
+    <p class="section-subtitle">精選 10 個常見問題，來自行業知識庫</p>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>2024澳門米其林必比登推介有多少間餐廳？</summary>
+        <p>2024年澳門共有10間餐廳獲得必比登推介，涵蓋粥麵、燒臘、糖水、甜品等類型。</p>
+      </details>
+      <details class="faq-item">
+        <summary>必比登推介的價位標準是什麼？</summary>
+        <p>米其林必比登推介標準為三道料理价格在港幣400元以下（約澳門幣420元），以平價美食著稱。</p>
+      </details>
+      <details class="faq-item">
+        <summary>這些必比登餐廳需要提前訂位嗎？</summary>
+        <p>大部分必比登推介餐廳如六記粥麵、祥記等不接受訂位，需現場排隊，建議避開用餐高峰期前往。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門杏仁餅哪裡買最正宗？</summary>
+        <p>推薦議事亭前地至大三巴一帶的老字號餅家，如澳門钜記、晃記等均有品質保證。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門肉乾保存期限多久？</summary>
+        <p>真空包裝肉乾常溫可保存約一個月，冷藏可達三個月，須注意包裝標示的有效期限。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門手信平均預算多少？</summary>
+        <p>基本伴手禮套裝約 MOP 100-200，較精緻禮盒約 MOP 200-400，可根據需求選擇。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門有哪些素食餐廳推薦？</summary>
+        <p>推薦澳門素食天堂、Green Kitchen、觀音寺素齋、VegeTable 等餐廳，各有中西式素食料理特色。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門機場有素食選擇嗎？</summary>
+        <p>澳門機場候機樓內有輕食店提供沙拉、三明治等素食選項，建議自備食物以防萬一。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門素食餐廳價格大約多少？</summary>
+        <p>一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門舊城區散步路線需要門票嗎？</summary>
+        <p>大部分景點如議事亭前地、大三巴、玫瑰堂、大炮台花園均免費參觀，只有澳門博物館需要MOP$15門票。</p>
+      </details>
+    </div>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "2024澳門米其林必比登推介有多少間餐廳？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "2024年澳門共有10間餐廳獲得必比登推介，涵蓋粥麵、燒臘、糖水、甜品等類型。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "必比登推介的價位標準是什麼？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "米其林必比登推介標準為三道料理价格在港幣400元以下（約澳門幣420元），以平價美食著稱。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "這些必比登餐廳需要提前訂位嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "大部分必比登推介餐廳如六記粥麵、祥記等不接受訂位，需現場排隊，建議避開用餐高峰期前往。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門杏仁餅哪裡買最正宗？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "推薦議事亭前地至大三巴一帶的老字號餅家，如澳門钜記、晃記等均有品質保證。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門肉乾保存期限多久？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "真空包裝肉乾常溫可保存約一個月，冷藏可達三個月，須注意包裝標示的有效期限。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門手信平均預算多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "基本伴手禮套裝約 MOP 100-200，較精緻禮盒約 MOP 200-400，可根據需求選擇。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門有哪些素食餐廳推薦？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "推薦澳門素食天堂、Green Kitchen、觀音寺素齋、VegeTable 等餐廳，各有中西式素食料理特色。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門機場有素食選擇嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "澳門機場候機樓內有輕食店提供沙拉、三明治等素食選項，建議自備食物以防萬一。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門素食餐廳價格大約多少？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門舊城區散步路線需要門票嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "大部分景點如議事亭前地、大三巴、玫瑰堂、大炮台花園均免費參觀，只有澳門博物館需要MOP$15門票。"
+      }
+    }
+  ],
+  "dateModified": "2026-03-19"
+}
+    </script>
+  </section>
+<!-- DYNAMIC-DB-CONTENT-END -->
   </main>
 
   <!-- ==================== FOOTER ==================== -->
