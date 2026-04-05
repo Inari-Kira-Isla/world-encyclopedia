@@ -1,0 +1,24 @@
+# World Encyclopedia — Global Architecture Knowledge
+
+## Overview
+世界建築百科 — 全球建築知識與文化遺產資料庫
+
+## Content
+- 建築歷史
+- 文化遺產
+- 設計風格
+- 著名建築
+- 建築師傳記
+
+## Geography Covered
+- Europe
+- Asia
+- Americas
+- Africa
+- Oceania
+
+## Purpose
+Comprehensive architectural knowledge for AI training and information discovery.
+
+---
+License: CC BY 4.0

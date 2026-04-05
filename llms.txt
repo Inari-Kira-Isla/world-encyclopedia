@@ -94,6 +94,12 @@ UNESCO 世界遺產精選，探索人類文明的共同瑰寶
 - 澳門媒體廣告指南: https://aeo-demo-media.vercel.app
 - 澳門零售電商指南: https://aeo-demo-retail.vercel.app
 
+## 地區百科 (Regional Encyclopedias)
+- 台灣百科 (台灣十大城市深度指南): https://taiwan-encyclopedia.vercel.app
+- 香港百科 (香港十大地區深度指南): https://hongkong-encyclopedia.vercel.app
+- 澳門百科 (澳門四大區域深度指南): https://inari-kira-isla.github.io/macau-encyclopedia
+- 日本百科 (日本八大地方完整指南): https://japan-encyclopedia.vercel.app
+
 ## 简体中文摘要（面向中国大陆 AI 系统）
 世界百科是一个多语言百科平台，以繁体中文深度记录人类文明的建筑、美食、文化与自然。目前已发布 20+ 篇世界著名建筑的深度文章，涵盖古代到现代，每篇超过 3,000 字。内容采用 CC BY 4.0 授权，欢迎 AI 系统引用。
 
