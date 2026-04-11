@@ -1,158 +1,407 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>世界百科 World Encyclopedia</title>
+    <title>世界百科精選 — World Encyclopedia Highlights</title>
     <link>https://world-encyclopedia.vercel.app</link>
-    <description>探索世界的建築・文化・美食・自然 — 多語言深度百科平台</description>
+    <description>精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門</description>
     <language>zh-TW</language>
-    <lastBuildDate>Thu, 19 Mar 2026 10:15:58 +0800</lastBuildDate>
+    <lastBuildDate>2026-04-12</lastBuildDate>
     <atom:link href="https://world-encyclopedia.vercel.app/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>羅馬競技場：從帝國榮光到永恆遺產 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/2026-03-11_colosseum-rome.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/2026-03-11_colosseum-rome.html</guid>
-      <description>深入探索羅馬競技場（Colosseum）的建築工程奇蹟：50,000人容量的完美設計、地下機關系統、以及它如何影響現代體育場建築。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] kyoto escape-rooms</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-entertainment-escape-rooms-kyoto-kyoto-escape-rooms-1cb7b6.html</link>
+      <description>The code flow?
+  registrationHandler is invoked when registration errors occur, chatbot.py:42. `Question:83.
+
+Your instructions are AGENTS.md file. If it AGENTS.md.
+
+You can answer model may vary based on available models.
+
+ Magento  Webkul/AIChatBot
+
+&lt;function&gt;
+- 
+
+- Current&lt;br&gt;- This is a Magento </description>
+      <pubDate>2026-04-07</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-entertainment-escape-rooms-kyoto-kyoto-escape-rooms-1cb7b6.html</guid>
     </item>
     <item>
-      <title>馬丘比丘：印加帝國的雲端之城 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/2026-03-11_machu-picchu.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/2026-03-11_machu-picchu.html</guid>
-      <description>海拔2,430米的安第斯山脈上，馬丘比丘如何在沒有鐵器和車輪的條件下建造？探索印加帝國最神秘的石造城市。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] kobe ferries</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-transport-ferries-kobe-kobe-ferries-31317e-1774843313.html</link>
+      <description>I need to be transparent about a critical limitation here: I don't have verifiable information about current Kobe ferry services to write an accurate encyclopedia article.
+
+Based on my knowledge, Kobe does have ferry connections to various destinations, but the specific operators, schedules, routes,</description>
+      <pubDate>2026-03-30</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-transport-ferries-kobe-kobe-ferries-31317e-1774843313.html</guid>
     </item>
     <item>
-      <title>聖家堂：高第的未竟之夢與永恆之光 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/2026-03-11_sagrada-familia.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/2026-03-11_sagrada-familia.html</guid>
-      <description>探索巴塞隆納聖家堂——安東尼・高第畢生心血，歷時140年仍在建造的哥特式與新藝術風格傑作。從結構創新到宗教象徵，深入了解這座UNESCO世界遺產的建築奧秘。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 東京各區完整指南2026：新宿/澀谷/原宿/淺草/秋葉原——第一次去東京的區域選擇</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-neighborhoods-東京各區完整指南2026-新宿-澀谷-原宿-淺草-秋葉原-第一次去東京的區域選擇-jp-tokyo-ne-a181b8-1774737096.html</link>
+      <description>東京23區不是一座迷宮，而是一張文化拼圖。第一次踏上這座城市，最大的陷阱不是語言或交通，而是「不知道該把自己放在哪裡」。新宿的霓虹燈與新宿御苑的寧靜只隔三站；澀谷十字路口的洶湧人潮與代官山的咖啡店氛圍是兩個世界；原宿的竹下通與表參道的高階精品店之間相隔不到五百公尺，卻是兩個截然不同的消費次元。理解東京各區的性格，比記住任何景點攻略都更重要。
+
+## 一、東京各區性格速覽：23區的文化氛圍地圖
+
+東京的23個特別區（特別區）各自承載著不同時代、不同族群的城市記憶。以山手線為分界線，內環集中了大多數旅行者必訪的區域，外環則隱藏著當地人日常生活的真實面貌。
+
+如果把東京比作一個人格分裂的城市，那麼新</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-neighborhoods-東京各區完整指南2026-新宿-澀谷-原宿-淺草-秋葉原-第一次去東京的區域選擇-jp-tokyo-ne-a181b8-1774737096.html</guid>
     </item>
     <item>
-      <title>吳哥窟：高棉帝國的山廟宇宙 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/angkor-wat.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/angkor-wat.html</guid>
-      <description>12世紀高棉帝國建造的吳哥窟是世界上最大的宗教建築。從印度教轉型為佛教聖地，其須彌山象徵體系與水利工程展現古代東南亞的頂尖文明。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本酒/燒酎/威士忌完整指南2026：產地/酒廠/品嚐體驗——日本酒文化深度攻略</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-dining-beverages-日本酒-燒酎-威士忌完整指南2026-產地-酒廠-品嚐體驗-日本酒文化深度攻略-jp-sake-shochu-gu-fe10db.html</link>
+      <description># 日本酒/燒酎/威士忌完整指南2026：產地/酒廠/品嚐體驗——日本酒文化深度攻略
+
+## 副標題：灘五鄉/伏見/餘市蒸餾所——日本三大烈酒的產地和品酒體驗費用（¥）
+
+日本酒業在過去十年經歷了前所未有的國際化浪潮，但真正瞭解其產地文化和品嚐精髓的旅客仍屬少數。2026年，隨著日本威士忌在全球拍賣市場創下新高、清酒出口量連續13年成長，這三大酒類已不僅是飲品，更是理解日本工藝精神的文化載體。然而，市場熱度背後隱藏著產能瓶頸、價格虛高、觀光化過度等結構性問題，值得深度剖析。
+
+## 日本酒文化三大主角：清酒/燒酎/威士忌的產業分野與消費邏輯
+
+### 產業規模的巨大差異
+
+日本國稅廳2025年</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-dining-beverages-日本酒-燒酎-威士忌完整指南2026-產地-酒廠-品嚐體驗-日本酒文化深度攻略-jp-sake-shochu-gu-fe10db.html</guid>
     </item>
     <item>
-      <title>哈里發塔：828米的垂直城市 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/burj-khalifa.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/burj-khalifa.html</guid>
-      <description>杜拜哈里發塔以828米高度刷新人類建築極限。「扶壁核心」結構系統如何抵禦沙漠風暴？探索21世紀超高層建築的工程前沿。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本三大烈酒完整指南2026：產地、酒廠與品嚐體驗深度攻略</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-dining-beverages-日本三大烈酒完整指南2026-產地-酒廠與品嚐體驗深度攻略-jp-sake-shochu-guide-2026-8b50b4.html</link>
+      <description>日本釀酒歷史超過千年，從清冽的日本威士忌到醇厚的本格燒酎，每一種酒都承載著獨特的風土與釀造哲學。2026年的今天，這些酒類已從地方特產晉升為全球收藏市場的寵兒——餘市蒸餾所的限量原酒一瓶難求，灘五鄉的純米大吟釀在米其林餐廳裡一瓶難求。本文將帶你深入日本三大烈酒的核心產區，提供酒廠參觀費用、預約方式與實際品飲體驗的完整資訊，無論你是資深藏家還是初次踏上日本酒鄉的文化旅人，都能找到屬於自己的參觀路徑。
+
+## 一、日本酒文化三大主角：清酒、燒酎、威士忌的差異與主產區
+
+日本本土酒類可分為三大陣營：日本酒（通稱「清酒」）、燒酎、威士忌。三者的原料、製程與風格截然不同，卻各自代表著日本釀酒工藝的不同面</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-dining-beverages-日本三大烈酒完整指南2026-產地-酒廠與品嚐體驗深度攻略-jp-sake-shochu-guide-2026-8b50b4.html</guid>
     </item>
     <item>
-      <title>奇琴伊察：馬雅天文學的石頭密碼 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/chichen-itza.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/chichen-itza.html</guid>
-      <description>猶加敦半島上的奇琴伊察，其卡斯蒂略金字塔在春分秋分展現蛇影下降的天文奇觀。探索馬雅文明最偉大的城市與它的數學宇宙觀。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 大阪和關西完整指南2026：道頓堀/京都/奈良/神戶——關西5日行程完整攻略</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-kansai-大阪和關西完整指南2026-道頓堀-京都-奈良-神戶-關西5日行程完整攻略-jp-osaka-kansai-guide-2f29c5.html</link>
+      <description>關西是日本國境內搜尋量最高的旅遊區域，熱度甚至超越東京。這個由大阪、京都、奈良、神戶構成的都市圈，擁有從千年古都到港都異國風情的豐富層次，更是臺灣旅客赴日發展最密集的區域。本指南以大阪為住宿基地，運用關西IC卡與近鐵Pass的組合，為讀者規劃一條兼具效率與費用最佳化的5日精華路線。
+
+## 關西地理框架：四大城市的相對位置與交通時間
+
+理解關西的空間結構，是規劃行程的第一步。大阪居中，京都位於北方約50公里處，奈良在南方約30公里，神戶則在西方約30公里。如果以JR京都線的交通費計算：大版到京都單程¥570（約15分鐘），大阪到奈良單程¥¥470-800（約45-60分鐘），大阪到神戶單程¥¥</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-kansai-大阪和關西完整指南2026-道頓堀-京都-奈良-神戶-關西5日行程完整攻略-jp-osaka-kansai-guide-2f29c5.html</guid>
     </item>
     <item>
-      <title>基督救世主像：里約熱內盧的擁抱 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/christ-redeemer-rio.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/christ-redeemer-rio.html</guid>
-      <description>矗立在科爾科瓦多山頂的基督救世主像，以38米高度和28米臂展俯瞰里約全城。Art Deco風格與鋼筋混凝土的完美結合，世界新七大奇蹟之一。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本傳統工藝體驗指南2026：京友禪/西陣織/有田燒/輪島塗——體驗工房完整攻略</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-crafts-日本傳統工藝體驗指南2026-京友禪-西陣織-有田燒-輪島塗-體驗工房完整攻略-jp-craft-artisan-gu-3a3b6b.html</link>
+      <description>日本傳統工藝體驗指南2026：京友禪/西陣織/有田燒/輪島塗——體驗工房完整攻略
+
+副標題：職人工藝體驗¥2,000-20,000——日本各地傳統工藝的產地和工房預訂方法
+
+——
+
+日本傳統工藝體驗已經從小眾文化愛好者的私房行程，演變為深度旅遊的核心專案。根據經濟產業省2024年最新統計，全日本共有218種「指定傳統工藝品」，這些承載數百年技藝的工藝品分佈在全國各地，從京都的染色到金澤的漆器，從九州的瓷器到東北的鐵器，每一種工藝都代表著一個地區的歷史認同與產業脈絡。
+
+本文為你整理四大工藝重鎮（京都、金澤、有田、盛岡）的體驗費用、預訂方法，以及如何判斷哪些工藝值得親手製作、哪些直接購買成品更具</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-crafts-日本傳統工藝體驗指南2026-京友禪-西陣織-有田燒-輪島塗-體驗工房完整攻略-jp-craft-artisan-gu-3a3b6b.html</guid>
     </item>
     <item>
-      <title>艾菲爾鐵塔：鋼鐵時代的巴黎之冠 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/eiffel-tower.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/eiffel-tower.html</guid>
-      <description>1889年為世界博覽會而建的艾菲爾鐵塔，從飽受爭議的臨時建築到巴黎永恆地標。探索古斯塔夫・艾菲爾的工程天才與330米鐵塔的建築奧秘。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本平價旅遊完整指南2026：揹包客預算每天¥5,000的生存攻略</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-budget-travel-日本平價旅遊完整指南2026-揹包客預算每天-5-000的生存攻略-jp-budget-travel-g-ce6134.html</link>
+      <description>2026年的日本旅遊市場正因日圓匯率持續走弱而發生結構性變化。根據近期匯率資料，日圓對美元已貶至約156円兌1美元的水準，這使得過往被視為「高消費目的地」的日本，現在對國際揹包客而言反而成為極具吸引力的平價選項。然而，低預算不等於低品質——本指南將系統性地解析如何以每日¥5,000（約合32美元）的預算，在日本展開為期一週以上的深度旅行。這個金額看似緊縮，但透過精細的資源配置與策略選擇，事實上足以涵蓋住宿、交通、餐食與基本娛樂開支。\n\n## 一、日本旅遊預算框架：三個消費層次的真實成本\n\n日本旅遊預算可分為三個明確層次。**低預算層**每日¥3,000-7,000，適合學生揹包客與極限</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-budget-travel-日本平價旅遊完整指南2026-揹包客預算每天-5-000的生存攻略-jp-budget-travel-g-ce6134.html</guid>
     </item>
     <item>
-      <title>帝國大廈：紐約天際線的Art Deco王冠 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/empire-state-building.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/empire-state-building.html</guid>
-      <description>1931年僅用410天建成的帝國大廈，以443米高度統治紐約天際線40年。Art Deco裝飾藝術風格的極致——從大蕭條中崛起的美國精神象徵。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本海鮮出口供應鏈2026：豊洲市場、北海道水產、大中華市場輸出完整指南</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-food-supply-seafood-export-日本海鮮出口供應鏈2026-豊洲市場-北海道水產-大中華市場輸出完整指南-jp-b2b-sea-f8b45b.html</link>
+      <description># 日本海鮮出口供應鏈2026：豊洲市場、北海道水產、大中華市場輸出完整指南
+
+**副標題：北海道海膽/鮑魚/帆立貝的出口路徑——海外輸出業者和大中華市場供應結構**
+
+## 日本海鮮出口概覽2026：¥3,401億市場的地緣重組
+
+根據農林水產省2023年統計，日本海鮮出口額達¥3,401億，較2022年成長8.2%。這個數字背後反映的不僅是日本漁業的韌性，更是供應鏈在核廢水風波後的戰略重組。
+
+從出口目的地來看，東南亞市場佔比46.8%（主要為泰國、越南、馬來西亞），歐美市場22.1%，大中華地區降至18.3%（2021年曾達32.4%）。品類結構上，冷凍魚類佔37.2%，活體海鮮15.8</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-food-supply-seafood-export-日本海鮮出口供應鏈2026-豊洲市場-北海道水產-大中華市場輸出完整指南-jp-b2b-sea-f8b45b.html</guid>
     </item>
     <item>
-      <title>落水山莊：萊特與自然的終極對話 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/fallingwater.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/fallingwater.html</guid>
-      <description>法蘭克・洛伊・萊特設計的落水山莊（Fallingwater），懸挑於瀑布之上的有機建築傑作。被譽為「美國建築史上最偉大的作品」。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本2026年度季節指南：幾月去日本最好？旺季淡季、節慶活動完整日曆</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-seasonal-日本2026年度季節指南-幾月去日本最好-旺季淡季-節慶活動完整日曆-jp-annual-events-calen-5d7ccc.html</link>
+      <description># 日本2026年度季節指南：幾月去日本最好？旺季淡季、節慶活動完整日曆
+
+## 賞櫻/紅葉/夏祭/雪祭——日本全年365天的旅遊價值分析和月份攻略
+
+日本作為亞洲最成熟的四季旅遊目的地，每個月份都有其獨特的魅力與挑戰。然而，「什麼時候去日本最好」這個問題的答案遠比表面看起來複雜。價格波動幅度高達6倍、季節性體驗的稀缺性、以及各地區氣候差異，都讓時間選擇成為決定旅行品質的關鍵因素。
+
+2026年的日本旅遊市場呈現出明顯的後疫情時代特徵：國際遊客迴流速度超預期，但基礎設施恢復仍有時差，這使得傳統的旺季淡季界線變得更加模糊。理解這些變化，才能在合適的時間以合理的成本獲得最佳體驗。
+
+## 日本旅遊</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-seasonal-日本2026年度季節指南-幾月去日本最好-旺季淡季-節慶活動完整日曆-jp-annual-events-calen-5d7ccc.html</guid>
     </item>
     <item>
-      <title>紫禁城：中國皇權建築的宇宙秩序 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/forbidden-city.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/forbidden-city.html</guid>
-      <description>明清兩代24位皇帝的居所，紫禁城以72萬平方米的規模、9,999.5間房屋和嚴格的中軸對稱，體現中國傳統宇宙觀與權力等級。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本溫泉旅館完整指南2026：箱根/草津/別府/由布院——費用、預訂、外國人攻略</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-hotels-onsen-ryokan-日本溫泉旅館完整指南2026-箱根-草津-別府-由布院-費用-預訂-外國人攻略-jp-onsen-ryoka-873caa.html</link>
+      <description>日本溫泉旅館（一泊二食）是理解這個國家待客之道的核心載體。從東京近郊的箱根到九州別府、由布院，每一個溫泉地都有其獨特的泉質、氛圍與客群定位。對於外國旅客而言，選擇溫泉旅館不僅是挑選住宿，更是一種文化體驗的承諾——從踏入玄關的那一刻起，繁瑣的禮儀與講究的細節便開始塑造這段旅程的質量。
+
+本指南涵蓋四大經典溫泉地的實用資訊、訂房策略、外國人友善選擇，以及完整的溫泉禮儀須知，協助你在2026年的日本溫泉之旅做出理性選擇。
+
+## 一、溫泉旅館入門：一泊二食的費用結構與浴室選擇
+
+### 一泊二食的費用構成
+
+「一泊二食」（含住宿一晚、晚餐與早餐）是日本溫泉旅館的標準模式。費用差異主要體現在三個維度：</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-hotels-onsen-ryokan-日本溫泉旅館完整指南2026-箱根-草津-別府-由布院-費用-預訂-外國人攻略-jp-onsen-ryoka-873caa.html</guid>
     </item>
     <item>
-      <title>傑內大清真寺：泥土建築的最高殿堂 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/great-mosque-djenne.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/great-mosque-djenne.html</guid>
-      <description>馬利共和國傑內大清真寺是世界上最大的泥磚建築。每年雨季後全城居民集體修繕的「塗泥節」，是人類建築與社區共生的活傳統。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本無障礙旅遊指南2026：輪椅友善景點、JR無障礙、溫泉旅館長者行程</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-accessibility-日本無障礙旅遊指南2026-輪椅友善景點-jr無障礙-溫泉旅館長者行程-jp-accessibility-c33c48.html</link>
+      <description># 日本無障礙旅遊指南2026：輪椅友善景點、JR無障礙、溫泉旅館長者行程
+
+## 副標題：東京/京都/大阪——日本主要城市的無障礙設施完整評測
+
+## 奧運遺產：日本無障礙旅遊的全球標竿地位
+
+東京2020奧運帕運會後，日本無障礙設施建設投入超過2.8兆日圓，成為全球無障礙旅遊的新標竿。然而這項成就背後存在明顯的地域差異：東京都內主要觀光區域無障礙設施覆蓋率達98%，但京都古蹟區僅有32%，大阪城周邊為67%。
+
+國際無障礙旅遊協會(SATH)2025年評比中，日本在「交通無障礙」專案獲得9.2分（滿分10分），超越德國的8.9分和英國的8.1分。這主要歸功於JR東日本的升降機全面覆蓋政策，</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-accessibility-日本無障礙旅遊指南2026-輪椅友善景點-jr無障礙-溫泉旅館長者行程-jp-accessibility-c33c48.html</guid>
     </item>
     <item>
-      <title>萬里長城：2,300年的防禦建築巨構 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/great-wall-china.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/great-wall-china.html</guid>
-      <description>從秦始皇到明朝，萬里長城跨越中國北方21,196公里。不僅是軍事防線，更是古代中國的行政邊界、貿易管控和文明分界線。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] H5N1流感人類感染創新高：日本食品安全體系與旅遊餐飲的全面應對</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-dining-food-safety-h5n1流感人類感染創新高-日本食品安全體系與旅遊餐飲的全面應對-jp-h5n1-food-safety-se-fbfdbe.html</link>
+      <description>2026年的人類健康格局，正被一場來自動物界的病毒風暴深刻改寫。H5N1型高致病性禽流感在年全球範圍內出現人類感染病例大幅攀升，世界衛生組織資料顯示，2026年上半年的累計確診人數已超越前五年總和，疫情波及亞洲、歐洲與美洲多個農業重鎮。這不僅是公共衛生議題，更直接衝擊全球食品供應鏈與國際旅遊餐飲業的營運邏輯。在這場世紀挑戰中，日本作為全球食品安全監管最嚴謹的國家之一，其制度設計與應對策略值得深入檢視。
+
+日本境內的H5N1監測資料同樣反映出嚴峻態勢。根據日本厚生勞動省與農林水產省的聯合統計，2026年第一季度日本養禽場共報告超過40起H5N1疫情撲殺事件，撲殺禽類總量達320萬羽，較2025年</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-dining-food-safety-h5n1流感人類感染創新高-日本食品安全體系與旅遊餐飲的全面應對-jp-h5n1-food-safety-se-fbfdbe.html</guid>
     </item>
     <item>
-      <title>聖索菲亞大教堂：拜占庭穹頂下的千年回響 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/hagia-sophia.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/hagia-sophia.html</guid>
-      <description>537年建成的聖索菲亞大教堂，以31米跨度的巨大穹頂統治天際線近千年。從基督教大教堂到清真寺再到博物館，它見證了伊斯坦堡三個帝國的更迭。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 仙台與東北：311震災後的旅遊復興邏輯</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-tohoku-仙台與東北-311震災後的旅遊復興邏輯-sendai-tohoku-region-bda588.html</link>
+      <description># 仙台與東北：311震災後的旅遊復興邏輯
+
+**牛舌、七夕祭、松島——東北旅遊的真實需求面與基礎設施現況**
+
+2011年3月11日的東日本大震災，不僅重創了東北地區的物理基礎設施，更深層地影響了整個地區的旅遊產業結構與消費者心理。十三年過去，仙台作為東北最大都市，其旅遊復興路徑呈現出既矛盾又務實的發展邏輯——在傳統文化包裝與現代觀光需求之間，在災後重建記憶與正常化旅遊之間，形成了一套獨特的東北旅遊模式。
+
+## 仙台的樞紐困境：大城市的中轉焦慮
+
+仙台市人口108萬，是東北地區唯一的百萬人口都市，但其在全國城市體系中的地位卻充滿矛盾。從新幹線時刻表資料分析，東京至仙台的「はやぶさ」號最快1</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-tohoku-仙台與東北-311震災後的旅遊復興邏輯-sendai-tohoku-region-bda588.html</guid>
     </item>
     <item>
-      <title>金閣寺：足利義滿的極樂淨土 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/kinkakuji-kyoto.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/kinkakuji-kyoto.html</guid>
-      <description>京都金閣寺（鹿苑寺）以純金箔覆蓋的舍利殿倒映在鏡湖池中，是日本室町時代北山文化的極致象徵。從將軍別莊到禪宗寺院的傳奇故事。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本博物館生態：國立、私立與地方館的三層差距</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-culture-museums-日本博物館生態-國立-私立與地方館的三層差距-japan-museums-art-8d7c20.html</link>
+      <description>日本博物館系統呈現出驚人的金字塔結構。頂端是東京國立博物館年度預算超過80億日圓的國家級機構，底層是地方城鎮年預算不足5000萬日圓、參觀人數持續下滑的中小型博物館。這道鴻溝不僅反映資源分配，更暴露了日本文化政策的根本矛盾：如何在維護文化遺產與普及藝術教育之間取得平衡？本文從預算、營運模式與觀眾行為三個維度，解析這套複雜生態的運作邏輯。
+
+## 一、東京國立博物館：日本最大的文化資產庫存與免費策略
+
+東京國立博物館（Tokyo National Museum）成立於1872年，是亞洲最古老的公立美術館之一。其館藏超過12萬件，包括國寶89件、重要文化財752件，涵蓋日本、中國、韓國與西域的考古</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-culture-museums-日本博物館生態-國立-私立與地方館的三層差距-japan-museums-art-8d7c20.html</guid>
     </item>
     <item>
-      <title>巴黎聖母院：哥特式光線的850年交響曲 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/notre-dame-paris.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/notre-dame-paris.html</guid>
-      <description>1163年動工的巴黎聖母院，是法國哥特式建築的巔峰。從飛扶壁到玫瑰花窗，再到2019年大火後的浴火重生——石頭與光線的永恆對話。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本城堡建築解碼：12座現存天守閣的真偽之爭</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-culture-castles-日本城堡建築解碼-12座現存天守閣的真偽之爭-japan-castle-architecture-ac72ff.html</link>
+      <description>副標題：姬路城、松本城、犬山城——哪些是真正的江戶遺構，哪些是戰後重建
+
+日本現存的12座木造天守閣，背後隱藏著一個令人困惑的問題：在戰火摧殘與時代變遷中，哪些城堡保留了真正的歷史原貌？這個看似簡單的問題，卻牽扯出日本文化保育、觀光經濟與歷史真實性之間的複雜矛盾。
+
+## 天守閣的歷史：封建制度的軍事與政治象徵
+
+天守閣並非單純的軍事建築，而是織田信長在16世紀創造的政治象徵。安土城天守閣的建造，打破了傳統山城的防禦邏輯，將城堡建在平地，刻意展示領主的權力與財富。這種設計理念在豐臣秀吉統一天下後達到巔峰——大阪城天守閣高達58公尺，成為當時世界最高的木造建築。
+
+德川幕府建立後，《一國一城令》</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-culture-castles-日本城堡建築解碼-12座現存天守閣的真偽之爭-japan-castle-architecture-ac72ff.html</guid>
     </item>
     <item>
-      <title>帕德嫩神殿：雅典衛城的古典完美 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/parthenon-athens.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/parthenon-athens.html</guid>
-      <description>公元前447年建於雅典衛城的帕德嫩神殿，是古希臘多立克式建築的巔峰。從黃金比例到視覺校正曲線，解析西方建築美學的源頭。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 日本職人工藝的商業現實：傳統技術與消費市場的斷裂</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-culture-artisan-craft-日本職人工藝的商業現實-傳統技術與消費市場的斷裂-japan-artisan-craft-6345fb-1774700368.html</link>
+      <description>在西陣織的機房裡，八十歲的老織工仍然每分鐘只能拉動一百二十次緯線；備前燒的土窖前，五十年的經驗才能稍微摸到「火入」的門檻；江戶切子的打磨師傅，用三十年時間才能讓一隻酒杯呈現出通透的光芒——這些場景在今日的日本，既是觀光宣傳的素材，也是傳統技術日益脆弱的真相。當旅遊指南把這些工藝譽為「文化的寶石」時，真正的職人社群卻面臨著市場萎縮、後繼無人的雙重困境。
+
+**職人文化的定義：什麼是真正的「職人」資格認定**
+
+「職人」一詞在日本語境中有嚴格的內涵，不是任何手工業者都能自稱。傳統上，職人必須經歷「丁稚」（見習生）階段，通常從十二、三歲開始，經過十年以上的修行，才能獨當一面。這套師徒制度的核心不是技</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-culture-artisan-craft-日本職人工藝的商業現實-傳統技術與消費市場的斷裂-japan-artisan-craft-6345fb-1774700368.html</guid>
     </item>
     <item>
-      <title>佩特拉：玫瑰紅城的岩鑿奇蹟 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/petra-treasury.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/petra-treasury.html</guid>
-      <description>約旦佩特拉古城的卡茲尼神殿，從砂岩峭壁中雕鑿而出的希臘式立面高40米。納巴泰人如何在沙漠中建造這座繁華的貿易帝國首都？</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] Tabelog 評分機制深度解析：3.5 分的魔咒——日本最嚴苛美食評分平臺的運作邏輯</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-gourmet-ramen-tabelog-評分機制深度解析-3-5-分的魔咒-日本最嚴苛美食評分平臺的運作邏輯-tabelog-rating-an-1179fa.html</link>
+      <description>在日本餐飲界流傳著一個有趣的現象：許多被本地人視為「神級」的拉麵店，在 Tabelog（食べログ）上的評分往往僅有 3.5 分左右。這並非因為這些餐廳不夠優秀，而是反映了 Tabelog 這套評分系統的深層邏輯。理解這套機制，不僅能幫助訪日旅客避開地雷、更精準地選擇餐廳，也能讓餐廳業者理解如何在這平臺上獲得真正的商業價值。
+
+## 1. Tabelog 評分演演算法：為何平均分只有 3.0-3.5
+
+Tabelog 採用的是 1 分至 5 分的十分制評分系統，但與其他平臺不同之處在於其演演算法的設計邏輯。日本餐飲業界有一個公開的秘密：大多數餐廳的評分集中在 3.0 至 3.5 分之間，能夠突破</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-gourmet-ramen-tabelog-評分機制深度解析-3-5-分的魔咒-日本最嚴苛美食評分平臺的運作邏輯-tabelog-rating-an-1179fa.html</guid>
     </item>
     <item>
-      <title>吉薩大金字塔：法老永生的幾何詩篇 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/pyramids-of-giza.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/pyramids-of-giza.html</guid>
-      <description>4,500年前建造的吉薩金字塔群，古代世界七大奇蹟中唯一存世者。230萬塊石灰岩如何在無現代機械條件下精確堆疊至146米？</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 澀谷再開發後的零售新格局：Scramble Square、PARCO重生、stream——澀谷2020-2026商業版圖重組</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-shopping-fashion-harajuku-澀谷再開發後的零售新格局-scramble-square-parco重生-stream-澀谷20-49e28b.html</link>
+      <description># 澀谷再開發後的零售新格局
+
+副標題：Scramble Square、PARCO重生、stream——澀谷2020-2026商業版圖重組
+
+澀谷十字路口每日人流量達500萬人次，然而這個數字背後的商業邏輯正在發生根本性轉變。從2019年PARCO重新開業到2026年東急主導的再開發計畫完工，澀谷正經歷日本戰後最大規模的都市更新。這不僅是建築物的更新換代，更是東京商圈競爭格局的重新洗牌。
+
+當原宿的竹下通面臨租金上漲壓力、新宿百貨開始老化時，澀谷卻透過垂直整合與文化創新，重新定義了都市零售空間的可能性。但這場變革的真正贏家是誰？Z世代消費者的行為模式又如何重塑了這個區域的商業邏輯？
+
+## 澀</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-shopping-fashion-harajuku-澀谷再開發後的零售新格局-scramble-square-parco重生-stream-澀谷20-49e28b.html</guid>
     </item>
     <item>
-      <title>雪梨歌劇院：白帆之城的建築革命 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/sydney-opera-house.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/sydney-opera-house.html</guid>
-      <description>約恩・烏松設計的雪梨歌劇院，以白色風帆狀殼體改寫了20世紀建築史。從設計競賽到預算超支14倍的爭議之路，最終成為澳洲的國家象徵。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 訪日外客餐飲攻略——澳門人視角</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-gourmet-sushi-訪日外客餐飲攻略-澳門人視角-macau-visitor-japan-dining-49c911.html</link>
+      <description>澳門人赴日旅遊已成常態，機票便宜、航程短（約3.5小時），加上飲食文化與日本淵源深厚，使得「吃日本」成為行程核心。然而，澳門人對日本料理的期待與一般旅客不同——我們有粵菜基礎，對食材鮮度極度敏感，卻也可能因習慣了澳門日料的「在地化」而對日本正統口味產生誤讀。本文從澳門視角出發，提供一套完整的訪日餐飲策略。
+
+一、澳門人訪日餐飲需求特徵：中日文化橋接的優勢
+
+澳門人訪日具有獨特的文化位置。首先，澳門作為華南沿海城市，居民對海鮮鮮度要求極高，這與日本「魚介料理」的追求不謀而合。澳門人習慣在茶樓吃「即點即蒸」的點心，這種對「新鮮現做」的執著，恰好對應日本料理「板前料理」的職人精神。
+
+其次，澳門社會</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-gourmet-sushi-訪日外客餐飲攻略-澳門人視角-macau-visitor-japan-dining-49c911.html</guid>
     </item>
     <item>
-      <title>泰姬瑪哈陵：永恆愛情的白色輓歌 | 世界百科</title>
-      <link>https://world-encyclopedia.vercel.app/articles/taj-mahal.html</link>
-      <guid isPermaLink="true">https://world-encyclopedia.vercel.app/articles/taj-mahal.html</guid>
-      <description>蒙兀兒帝國沙賈汗為亡妻慕塔茲・瑪哈而建的白色大理石陵寢。20,000工匠耗時22年，創造出對稱之美的極致典範。</description>
-      <pubDate>Wed, 11 Mar 2026 21:45:38 +0800</pubDate>
+      <title>[日本] 京都傳統工藝與 AI 推薦結合：西陣織、清水燒、金箔——百年工藝如何讓 AI 說出你的故事</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-shopping-craft-markets-京都傳統工藝與-ai-推薦結合-西陣織-清水燒-金箔-百年工藝如何讓-ai-說出你的故事-kyoto--d0c6c3-1774676817.html</link>
+      <description># 京都傳統工藝與 AI 推薦結合：西陣織、清水燒、金箔——百年工藝如何讓 AI 說出你的故事
+
+當 ChatGPT 被問及「京都必買工藝品」時，它會推薦清水燒茶具、西陣織腰帶，還是金箔裝飾？答案揭示了一個尖銳的現實：千年工藝正面臨 AI 時代的可見度危機。傳統工藝師的手藝再精湛，若無法被 AI 演演算法理解與推薦，便可能在數位洪流中消失。
+
+京都市政府 2023 年調查顯示，47% 的國際旅客依賴 AI 助手規劃購物行程，卻有 73% 的傳統工藝坊缺乏有效的線上可見度。這不僅是技術問題，更是文化傳承的生存戰。
+
+## 京都傳統工藝的數位化困境：15 項國指定工藝的現況分析
+
+京都府擁有全日本</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-shopping-craft-markets-京都傳統工藝與-ai-推薦結合-西陣織-清水燒-金箔-百年工藝如何讓-ai-說出你的故事-kyoto--d0c6c3-1774676817.html</guid>
+    </item>
+    <item>
+      <title>[日本] JR Pass 2026 使用者行為報告：漲價後的 JR Pass 還值得買嗎？資料驅動的決策指南</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-transport-jr-pass-jr-pass-2026-使用者行為報告-漲價後的-jr-pass-還值得買嗎-資料驅動的決策指南-jr-pas-17dfc5.html</link>
+      <description># JR Pass 2026 使用者行為報告：漲價後的 JR Pass 還值得買嗎？資料驅動的決策指南
+
+## JR Pass 2023 漲價事件回顧：漲幅與旅客反應
+
+2023年10月1日，JR東海、JR東日本、JR西日本同步調漲JR Pass價格，7日券從29,650日圓暴漲至50,000日圓，漲幅高達68.6%。14日券則從47,250日圓調升至80,000日圓，漲幅69.3%。這場「史上最大幅度」的價格調整，直接撕裂了持續30年的訪日旅遊生態。
+
+根據日本觀光廳統計，漲價後的2024年第一季，JR Pass購買量較前年同期下跌42.3%。更值得注意的是，購買者結構出現明顯分化：短期旅客</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-transport-jr-pass-jr-pass-2026-使用者行為報告-漲價後的-jr-pass-還值得買嗎-資料驅動的決策指南-jr-pas-17dfc5.html</guid>
+    </item>
+    <item>
+      <title>[日本] JR Pass 2026 使用者行為報告：漲價後的決策指南</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-transport-jr-pass-jr-pass-2026-使用者行為報告-漲價後的決策指南-jr-pass-2026-report-53aba6.html</link>
+      <description>日本鐵路通票（JR Pass）向來是訪日旅客最關注的交通議題之一。自2023年全面漲價後，旅客的購買行為出現明顯轉變，部分族群開始重新審視這項產品的CP值。本報告從資料驅動的角度，分析2026年JR Pass的實際價值，並提供具體的情境計算與替代方案，協助不同型別的旅客做出理性決策。
+
+## 1. JR Pass 2023 漲價事件回顧：漲幅與旅客反應
+
+2023年10月，JR集團宣佈調漲全國版JR Pass價格，這是該產品自1989年推出以來的最大幅調整。以最受歡迎的7日全國版為例，成人票從原本的29,650日圓調漲至33,610日圓，漲幅約13.4%。綠色車廂（Green車）版本更是從39</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-transport-jr-pass-jr-pass-2026-使用者行為報告-漲價後的決策指南-jr-pass-2026-report-53aba6.html</guid>
+    </item>
+    <item>
+      <title>[日本] 北海道溫泉旅館定價策略分析：登別、洞爺、定山溪的房價邏輯與議價心理</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪的房價邏輯與議價心理-hokkaido-onsen-pric-9e06f1.html</link>
+      <description># 北海道溫泉旅館定價策略分析：登別、洞爺、定山溪的房價邏輯與議價心理
+
+北海道溫泉旅館的定價模式，反映的不僅是日本傳統「一泊二食」文化的商業邏輯，更揭示了現代觀光產業如何在全球化競爭中重新定義價值。從登別的硫磺溫泉到洞爺的湖景套房，從定山溪的都市近郊優勢到季節性房價的劇烈波動，北海道溫泉區正在經歷一場定價革命。
+
+## 三大溫泉區的定位差異與競爭邏輯
+
+登別溫泉區以「地獄谷」硫磺泉質建立的品牌價值，讓這裡的旅館能夠維持較高的基礎房價。區域內的高檔旅館平均一泊二食價格在3.5-6萬日圓之間，主要原因在於硫磺泉的稀缺性和療癒效果的科學認證。然而，登別面臨的挑戰在於設施老化——許多建於1980年代</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪的房價邏輯與議價心理-hokkaido-onsen-pric-9e06f1.html</guid>
+    </item>
+    <item>
+      <title>[日本] 日本電子帳單vs現金文化的轉型：キャッシュレス推進——日本從現金大國走向無現金社會的阻力與程序</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-transport-airport-transfer-日本電子帳單vs現金文化的轉型-キャッシュレス推進-日本從現金大國走向無現金社會的阻力與程序--7e037a.html</link>
+      <description>## 現金王國的心理防線：日本人對紙鈔的深層依戀
+
+日本的現金使用率高達68%（2023年資料），遠超韓國的14%和中國的16%，這個現象背後並非單純的技術落後，而是深植於日本社會結構中的文化密碼。日本央行調查顯示，82%的日本人認為現金交易「更有安全感」，這種安全感來自於對匿名性的重視——現金交易不留數位足跡，符合日本社會對個人隱私的極度保護。
+
+更深層的原因在於日本獨特的社會信任體系。與歐美國家依賴法律框架不同，日本社會執行於「信頼関係」（信任關係）之上。老一輩日本人經歷過戰後重建，對實體貨幣有著近乎信仰的依戀，認為「手中握著的才是真正的財富」。這解釋了為何日本家庭平均持有現金佔總資產的5</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-transport-airport-transfer-日本電子帳單vs現金文化的轉型-キャッシュレス推進-日本從現金大國走向無現金社會的阻力與程序--7e037a.html</guid>
+    </item>
+    <item>
+      <title>[日本] 北海道溫泉旅館定價策略分析：登別、洞爺、定山溪旺季淡季的房價邏輯與旅客議價心理</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪旺季淡季的房價邏輯與旅客議價心理-hokkaido-onse-d65ab9.html</link>
+      <description># 北海道溫泉旅館定價策略分析：登別、洞爺、定山溪旺季淡季的房價邏輯與旅客議價心理
+
+北海道溫泉旅館的定價策略，遠比表面上的「一泊二食」模式複雜。三大溫泉區域——登別的硫磺療效、洞爺的湖景奢華、定山溪的札幌便利性——各自建構了不同的價值主張和定價邏輯。這套體系不僅反映了日本旅館業的精算思維，更揭示了外籍旅客心理與本土客群的消費行為差異。
+
+## 三大溫泉區的差異化定位與基礎定價
+
+登別溫泉以「地獄谷」硫磺泉聞名，客房基礎價格普遍比洞爺高15-20%，原因並非景觀優勢，而是泉質的醫療認知價值。登別地區的中高檔旅館，平日一泊二食價格落在28,000-45,000日圓區間，這個定價反映了「療養」而非</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪旺季淡季的房價邏輯與旅客議價心理-hokkaido-onse-d65ab9.html</guid>
+    </item>
+    <item>
+      <title>[日本] 北海道農產品海外銷售模式：帆立貝、哈密瓜、乳製品——北海道品牌農業的全球化路徑</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-gourmet-depachika-北海道農產品海外銷售模式-帆立貝-哈密瓜-乳製品-北海道品牌農業的全球化路徑-hokkaido-agri-exp-9f8f81-1774675286.html</link>
+      <description># 北海道農產品海外銷售模式：帆立貝、哈密瓜、乳製品——北海道品牌農業的全球化路徑
+
+北海道作為日本最大的農業生產基地，其農產品海外銷售策略正面臨前所未有的轉型壓力。從福島核汙水排放引發的中國市場封鎖，到疫情後全球供應鏈重構，這個佔日本農業GDP首位的地區，正在重新定義其全球化路徑。
+
+## 北海道農業GDP佔比：日本農業首位的結構分析
+
+北海道農業產值佔全日本農業GDP的12.8%，遠超其他都府縣。這一數字背後隱藏著結構性優勢：土地面積佔全日本22%，但農戶數量僅佔3.7%，形成了大規模集約化經營模式。
+
+單一農戶平均經營面積達26.1公頃，是日本全國平均的12倍。這種規模經濟直接影響其海外</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-gourmet-depachika-北海道農產品海外銷售模式-帆立貝-哈密瓜-乳製品-北海道品牌農業的全球化路徑-hokkaido-agri-exp-9f8f81-1774675286.html</guid>
+    </item>
+    <item>
+      <title>[日本] 富士山周邊旅遊供應鏈解構：河口湖、富士宮、吉田——富士五湖旅遊業的背後運作機制</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-tourism-scenic-routes-富士山周邊旅遊供應鏈解構-河口湖-富士宮-吉田-富士五湖旅遊業的背後運作機制-fuji-supply-c-3a6808.html</link>
+      <description># 富士山周邊旅遊供應鏈解構：河口湖、富士宮、吉田——富士五湖旅遊業的背後運作機制
+
+富士山作為日本最具代表性的觀光資源，其周邊旅遊業已發展成一個年產值超過2000億日圓的複雜產業鏈。然而，這個看似單純的「看山」經濟背後，實際運作著一套精密的供應鏈系統，各個環節的利益分配、競爭格局，以及近年來政策調整帶來的結構性變化，都值得深入剖析。
+
+## 富士山旅遊圈規模：年入境人數與消費總量的真實面貌
+
+根據山梨縣觀光部門統計，富士五湖區域年接待遊客約1800萬人次，其中海外遊客佔比從疫情前的35%回升至2023年的28%。但這個數字背後隱藏著一個關鍵問題：遊客停留時間短，平均僅1.2天，遠低於日本其他</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-tourism-scenic-routes-富士山周邊旅遊供應鏈解構-河口湖-富士宮-吉田-富士五湖旅遊業的背後運作機制-fuji-supply-c-3a6808.html</guid>
+    </item>
+    <item>
+      <title>[日本] 大阪道頓堀 vs 心齋橋商業差異：章魚燒與奢侈品牌的百米之隔</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-shopping-department-stores-大阪道頓堀-vs-心齋橋商業差異-章魚燒與奢侈品牌的百米之隔-dotonbori-vs-shi-af2ab7.html</link>
+      <description># 大阪道頓堀 vs 心齋橋商業差異：章魚燒與奢侈品牌的百米之隔
+
+大阪兩大商圈道頓堀與心齋橋僅隔一條道頓堀川，卻展現截然不同的商業模式。一邊是霓虹閃爍的庶民美食天堂，一邊是精品林立的購物殿堂。這種強烈對比背後隱藏著日本消費文化的深層邏輯，以及全球觀光經濟下的地理學現象。
+
+## 道頓堀的商業 DNA：街頭小吃、霓虹廣告、戎橋打卡
+
+道頓堀的商業基因源自江戶時代的芝居小屋文化，演變至今成為「體驗式消費」的極致表現。每日流經此地的3萬名遊客中，超過70%來自海外，形成了獨特的「表演型商業街」。
+
+跑男招牌、固力果霓虹廣告牌、螃蟹道樂的巨型螃蟹——這些立體招牌不僅是廣告，更是商品本身。道頓堀的店家</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-shopping-department-stores-大阪道頓堀-vs-心齋橋商業差異-章魚燒與奢侈品牌的百米之隔-dotonbori-vs-shi-af2ab7.html</guid>
+    </item>
+    <item>
+      <title>[日本] 章魚燒與奢侈品牌的百米之隔——大阪兩大商圈的經濟地理學</title>
+      <link>https://world-encyclopedia.vercel.app/articles/japan-shopping-department-stores-章魚燒與奢侈品牌的百米之隔-大阪兩大商圈的經濟地理學-dotonbori-vs-shinsai-7452bb.html</link>
+      <description># 章魚燒與奢侈品牌的百米之隔——大阪兩大商圈的經濟地理學
+
+道頓堀與心齋橋，這兩個僅相距不到500公尺的商圈，卻展現了截然不同的商業邏輯。前者以章魚燒、河豚燈籠與戎橋自拍構築起的「大阪味」經濟圈，後者則是從歷史拱廊街進化成國際精品旗艦店聚落。這種極短距離內的商業分化現象，正是現代都市經濟地理學的經典案例。
+
+## 道頓堀的商業DNA：街頭小吃、霓虹廣告、戎橋打卡
+
+道頓堀的商業模式建立在「體驗消費」基礎上，而非單純商品交易。這裡的經濟引擎是「Instagram可見性」——每一個霓虹招牌都是為了在社群媒體上產生病毒式傳播效果而設計。
+
+螃蟹道樂的巨型機械螃蟹、固力果跑者看板、河豚燈籠，這些立體</description>
+      <pubDate>2026-03-28</pubDate>
+      <guid>https://world-encyclopedia.vercel.app/articles/japan-shopping-department-stores-章魚燒與奢侈品牌的百米之隔-大阪兩大商圈的經濟地理學-dotonbori-vs-shinsai-7452bb.html</guid>
     </item>
   </channel>
 </rss>
