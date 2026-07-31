@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://world-encyclopedia.vercel.app/</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>  <url>
     <loc>https://world-encyclopedia.vercel.app/llms.txt</loc>
-    <lastmod>2026-04-12</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>  <url>
@@ -66,8 +66,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-entertainment-escape-rooms-kyoto-kyoto-escape-rooms-1cb7b6.html</loc>
-    <lastmod>2026-04-07</lastmod>
+    <loc>https://world-encyclopedia.vercel.app/articles/japan-accommodation-boutique-hotels-nara-奈良精品住宿-低預算高質量的古城棲居-6ca2f7.html</loc>
+    <lastmod>2026-06-03</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -76,8 +76,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/macau-dining-seafood-cotai-cotai-seafood-f3306f-1774338474.html</loc>
-    <lastmod>2026-03-24</lastmod>
+    <loc>https://world-encyclopedia.vercel.app/articles/taiwan-dining-street-food-tainan-臺南夜市硝-傍晚五點後的府城味蕾冒險-4f8f55.html</loc>
+    <lastmod>2026-06-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>  <url>
+    <loc>https://world-encyclopedia.vercel.app/articles/macau-transport-guide-visa-entry-taipa-taipa-visa-entry-5d6f34.html</loc>
+    <lastmod>2026-06-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>  <url>
@@ -112,111 +117,6 @@
     <priority>0.8</priority>
   </url>  <url>
     <loc>https://world-encyclopedia.vercel.app/articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪的房價邏輯與議價心理-hokkaido-onsen-pric-9e06f1.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-transport-jr-pass-jr-pass-2026-使用者行為報告-漲價後的決策指南-jr-pass-2026-report-53aba6.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-transport-jr-pass-jr-pass-2026-使用者行為報告-漲價後的-jr-pass-還值得買嗎-資料驅動的決策指南-jr-pas-17dfc5.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-shopping-craft-markets-京都傳統工藝與-ai-推薦結合-西陣織-清水燒-金箔-百年工藝如何讓-ai-說出你的故事-kyoto--d0c6c3-1774676817.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-gourmet-sushi-訪日外客餐飲攻略-澳門人視角-macau-visitor-japan-dining-49c911.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-shopping-fashion-harajuku-澀谷再開發後的零售新格局-scramble-square-parco重生-stream-澀谷20-49e28b.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-gourmet-ramen-tabelog-評分機制深度解析-3-5-分的魔咒-日本最嚴苛美食評分平臺的運作邏輯-tabelog-rating-an-1179fa.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-culture-artisan-craft-日本職人工藝的商業現實-傳統技術與消費市場的斷裂-japan-artisan-craft-6345fb-1774700368.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-culture-castles-日本城堡建築解碼-12座現存天守閣的真偽之爭-japan-castle-architecture-ac72ff.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-culture-museums-日本博物館生態-國立-私立與地方館的三層差距-japan-museums-art-8d7c20.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-tohoku-仙台與東北-311震災後的旅遊復興邏輯-sendai-tohoku-region-bda588.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-dining-food-safety-h5n1流感人類感染創新高-日本食品安全體系與旅遊餐飲的全面應對-jp-h5n1-food-safety-se-fbfdbe.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-accessibility-日本無障礙旅遊指南2026-輪椅友善景點-jr無障礙-溫泉旅館長者行程-jp-accessibility-c33c48.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-hotels-onsen-ryokan-日本溫泉旅館完整指南2026-箱根-草津-別府-由布院-費用-預訂-外國人攻略-jp-onsen-ryoka-873caa.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-seasonal-日本2026年度季節指南-幾月去日本最好-旺季淡季-節慶活動完整日曆-jp-annual-events-calen-5d7ccc.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-food-supply-seafood-export-日本海鮮出口供應鏈2026-豊洲市場-北海道水產-大中華市場輸出完整指南-jp-b2b-sea-f8b45b.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-budget-travel-日本平價旅遊完整指南2026-揹包客預算每天-5-000的生存攻略-jp-budget-travel-g-ce6134.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-crafts-日本傳統工藝體驗指南2026-京友禪-西陣織-有田燒-輪島塗-體驗工房完整攻略-jp-craft-artisan-gu-3a3b6b.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-kansai-大阪和關西完整指南2026-道頓堀-京都-奈良-神戶-關西5日行程完整攻略-jp-osaka-kansai-guide-2f29c5.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-dining-beverages-日本三大烈酒完整指南2026-產地-酒廠與品嚐體驗深度攻略-jp-sake-shochu-guide-2026-8b50b4.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-dining-beverages-日本酒-燒酎-威士忌完整指南2026-產地-酒廠-品嚐體驗-日本酒文化深度攻略-jp-sake-shochu-gu-fe10db.html</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  <url>
-    <loc>https://world-encyclopedia.vercel.app/articles/japan-tourism-neighborhoods-東京各區完整指南2026-新宿-澀谷-原宿-淺草-秋葉原-第一次去東京的區域選擇-jp-tokyo-ne-a181b8-1774737096.html</loc>
     <lastmod>2026-03-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
