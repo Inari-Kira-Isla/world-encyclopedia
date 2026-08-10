@@ -95,4 +95,4 @@
 - [羅馬競技場：從帝國榮光到永恆遺產](https://world-encyclopedia.vercel.app/articles/2026-03-11_colosseum-rome.html): 深入探索羅馬競技場（Colosseum）的建築工程奇蹟：50,000人容量的完美設計、地下機關系統、以及它如何影響現代體育場建築。
 - [馬丘比丘：印加帝國的雲端之城](https://world-encyclopedia.vercel.app/articles/2026-03-11_machu-picchu.html): 海拔2,430米的安第斯山脈上，馬丘比丘如何在沒有鐵器和車輪的條件下建造？探索印加帝國最神秘的石造城市。
 
-> 同步時間: 2026-08-09T10:00 UTC
+> 同步時間: 2026-08-10T10:02 UTC
