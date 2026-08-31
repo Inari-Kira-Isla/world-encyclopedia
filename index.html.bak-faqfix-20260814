@@ -1,0 +1,885 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>世界百科精選 — World Encyclopedia Highlights | 精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門</title>
+  <meta name="description" content="精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門" />
+  <meta name="robots" content="index, follow" />
+  <meta name="google-site-verification" content="hoW2mAa2ikRCjBCFJs4miaJcNfaYKuns-SDlBX930nE" />
+  <link rel="canonical" href="https://world-encyclopedia.vercel.app/" />
+  <link rel="alternate" type="text/plain" href="/llms.txt" title="LLMs.txt" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://world-encyclopedia.vercel.app/" />
+  <meta property="og:title" content="世界百科精選 — World Encyclopedia Highlights" />
+  <meta property="og:description" content="精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門" />
+  <meta property="og:locale" content="zh_TW" />
+  <meta property="og:site_name" content="世界百科精選" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;500;700&family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/article-style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js" defer></script>
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "name": "World Encyclopedia Highlights",
+      "alternateName": "世界百科精選",
+      "url": "https://world-encyclopedia.vercel.app",
+      "description": "精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門",
+      "logo": "https://world-encyclopedia.vercel.app/favicon.ico",
+      "sameAs": [
+        "https://cloudpipe-landing.vercel.app",
+        "https://github.com/Inari-Kira-Isla"
+      ],
+      "parentOrganization": {
+        "@type": "Organization",
+        "name": "CloudPipe AI",
+        "url": "https://cloudpipe-landing.vercel.app"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "name": "世界百科精選 World Encyclopedia Highlights",
+      "url": "https://world-encyclopedia.vercel.app",
+      "description": "精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門",
+      "inLanguage": [
+        "zh-TW",
+        "en"
+      ],
+      "publisher": {
+        "@id": "https://world-encyclopedia.vercel.app"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "CloudPipe AI Knowledge Graph",
+        "url": "https://cloudpipe-landing.vercel.app"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://world-encyclopedia.vercel.app/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "CloudPipe AI",
+          "item": "https://cloudpipe-landing.vercel.app"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "世界百科精選",
+          "item": "https://world-encyclopedia.vercel.app"
+        }
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "澳門素食餐廳價格大約多少？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "一般素食餐廳人均消費約 MOP 60-150元，視餐廳等級和選擇而定，套餐會較為優惠。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "澳門黑沙海灘有哪些水上活動？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "黑沙海灘提供多元水上活動，包括獨木舟、直立板、水上電單車等。設有水上運動中心提供租借服務與基礎教學課程，適合親子同遊或朋友組團體驗。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "澳門博物館需要門票嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "澳門博物館免費開放參觀，館內展示澳門從葡人登陸至今四百年來的歷史發展，適合一邊參觀一邊了解澳門的文化底蘊。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "台灣高鐵和台鐵有什麼區別？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "高鐵連接西部幹線（台北到左營），速度快價格高；台鐵覆蓋全島包括東部，速度較慢但沿途風景更美。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "澳門到香港怎麼去最方便？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "港珠澳大橋巴士約45分鐘（24小時營運），噴射飛航船約1小時。大橋巴士性價比最高，約65港幣。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "香港離島值得去嗎？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "南丫島、長洲和大澳各有特色。南丫島有海鮮和沙灘，長洲有太平清醮和芒果糯米糍，大澳是水上漁村。"
+          }
+        }
+      ]
+    }
+  ]
+}</script>
+  <style>
+    .search-bar { display:flex; gap:0.75rem; margin:1.5rem 0; flex-wrap:wrap; }
+    .search-bar input { flex:1; min-width:200px; padding:0.75rem 1rem; border:1px solid var(--border,rgba(212,165,116,0.15)); border-radius:8px; background:var(--bg-card,#141721); color:var(--cream,#f0ece2); font-size:1rem; outline:none; }
+    .search-bar input:focus { border-color:var(--gold,#d4a574); box-shadow:0 0 0 2px rgba(212,165,116,0.2); }
+    .search-bar select { padding:0.75rem; border:1px solid var(--border); border-radius:8px; background:var(--bg-card); color:var(--cream); font-size:0.9rem; }
+    .filter-bar { display:flex; gap:0.5rem; flex-wrap:wrap; margin-bottom:1.5rem; }
+    .filter-btn { padding:0.5rem 1rem; border:1px solid var(--border); border-radius:20px; background:transparent; color:var(--text-secondary,#9a9590); cursor:pointer; font-size:0.85rem; transition:all 0.2s; }
+    .filter-btn:hover,.filter-btn.active { background:var(--gold,#d4a574); color:var(--bg-deep,#0c0e14); border-color:var(--gold); }
+    .card-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:1.25rem; }
+    .card { background:var(--bg-card,#141721); border:1px solid var(--border); border-radius:12px; padding:1.25rem; transition:transform 0.2s, box-shadow 0.2s; cursor:pointer; text-decoration:none; display:block; }
+    .card:hover { transform:translateY(-3px); box-shadow:0 8px 25px rgba(0,0,0,0.3); border-color:var(--gold); }
+    .card-industry { display:inline-block; font-size:0.75rem; padding:0.2rem 0.6rem; border-radius:12px; background:rgba(212,165,116,0.15); color:var(--gold); margin-bottom:0.5rem; }
+    .card h3 { color:var(--cream,#f0ece2); font-size:1.05rem; line-height:1.5; margin:0 0 0.5rem; font-weight:500; }
+    .card-meta { color:var(--text-secondary); font-size:0.8rem; display:flex; gap:1rem; }
+    .card-tags { display:flex; gap:0.4rem; flex-wrap:wrap; margin-top:0.6rem; }
+    .card-tags span { font-size:0.7rem; padding:0.15rem 0.5rem; border-radius:8px; background:rgba(255,255,255,0.05); color:var(--text-secondary); }
+    .pagination { display:flex; justify-content:center; gap:0.5rem; margin:2rem 0; flex-wrap:wrap; }
+    .pagination button { padding:0.5rem 1rem; border:1px solid var(--border); border-radius:8px; background:transparent; color:var(--cream); cursor:pointer; }
+    .pagination button.active { background:var(--gold); color:var(--bg-deep); }
+    .pagination button:disabled { opacity:0.3; cursor:default; }
+    .results-info { color:var(--text-secondary); font-size:0.85rem; margin-bottom:1rem; }
+    @media(max-width:600px) { .card-grid { grid-template-columns:1fr; } .search-bar { flex-direction:column; } }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <h1>世界百科精選</h1>
+    <p class="subtitle">World Encyclopedia Highlights — 精選亞洲各地最高品質百科文章：日本、香港、台灣、澳門</p>
+    <p class="stats">22 篇文章 | 81,224 字 | 10 個分類</p>
+  </header>
+  <main class="index-main">
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="搜索文章..." autocomplete="off" />
+      <select id="sortSelect">
+        <option value="newest">最新</option>
+        <option value="quality">品質最高</option>
+        <option value="longest">最多字數</option>
+        <option value="title">標題 A-Z</option>
+      </select>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-industry="all">全部 (22)</button>
+      <button class="filter-btn" data-industry="accommodation">住宿 (3)</button>
+<button class="filter-btn" data-industry="dining">美食 (1)</button>
+<button class="filter-btn" data-industry="entertainment">娛樂 (1)</button>
+<button class="filter-btn" data-industry="gourmet">美食 (1)</button>
+<button class="filter-btn" data-industry="shopping">購物 (5)</button>
+<button class="filter-btn" data-industry="shopping-guide">shopping-guide (2)</button>
+<button class="filter-btn" data-industry="tourism">旅遊 (1)</button>
+<button class="filter-btn" data-industry="trade">trade (1)</button>
+<button class="filter-btn" data-industry="transport">交通 (1)</button>
+<button class="filter-btn" data-industry="transport-guide">transport-guide (6)</button>
+
+    </div>
+    <p class="results-info" id="resultsInfo"></p>
+    <div class="card-grid" id="cardGrid"></div>
+    <div class="pagination" id="pagination"></div>
+    <noscript><section><h2>住宿 (3)</h2><ul><li><a href="articles/japan-accommodation-boutique-hotels-nara-奈良精品住宿-低預算高質量的古城棲居-6ca2f7.html">[日本] 奈良精品住宿 другой кут: 低預算高質量的古城棲居</a></li>
+<li><a href="articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪旺季淡季的房價邏輯與旅客議價心理-hokkaido-onse-d65ab9.html">[日本] 北海道溫泉旅館定價策略分析：登別、洞爺、定山溪旺季淡季的房價邏輯與旅客議價心理</a></li>
+<li><a href="articles/japan-accommodation-ryokan-北海道溫泉旅館定價策略分析-登別-洞爺-定山溪的房價邏輯與議價心理-hokkaido-onsen-pric-9e06f1.html">[日本] 北海道溫泉旅館定價策略分析：登別、洞爺、定山溪的房價邏輯與議價心理</a></li></ul></section>
+<section><h2>美食 (1)</h2><ul><li><a href="articles/taiwan-dining-street-food-tainan-臺南夜市硝-傍晚五點後的府城味蕾冒險-4f8f55.html">[台灣] 臺南夜市硝：傍晚五點後的府城味蕾冒險</a></li></ul></section>
+<section><h2>娛樂 (1)</h2><ul><li><a href="articles/hongkong-entertainment-festivals-causeway-bay-銅鑼灣節慶購物指南-商場活動與戶外盛事的購物狂歡-587f3c.html">[香港] 銅鑼灣節慶購物指南：商場活動與戶外盛事的購物狂歡</a></li></ul></section>
+<section><h2>美食 (1)</h2><ul><li><a href="articles/japan-gourmet-depachika-北海道農產品海外銷售模式-帆立貝-哈密瓜-乳製品-北海道品牌農業的全球化路徑-hokkaido-agri-exp-9f8f81-1774675286.html">[日本] 北海道農產品海外銷售模式：帆立貝、哈密瓜、乳製品——北海道品牌農業的全球化路徑</a></li></ul></section>
+<section><h2>購物 (5)</h2><ul><li><a href="articles/macau-shopping-duty-free-macau-peninsula-澳門半島duty-free購物地圖-傳統街區的免稅掘金指南-07cb7a.html">[澳門] 澳門半島Duty Free購物地圖：傳統街區的免稅掘金指南</a></li>
+<li><a href="articles/macau-shopping-bakery-gifts-macau-peninsula-macau-peninsula-bakery-gifts-4b6359-1774266239.html">[澳門] macau-peninsula bakery-gifts</a></li>
+<li><a href="articles/macau-shopping-souvenir-shops-macau-peninsula-澳門半島紀念品地圖-分眾購物體驗指南-0a2179.html">[澳門] 澳門半島紀念品地圖：分眾購物體驗指南</a></li>
+<li><a href="articles/japan-shopping-department-stores-章魚燒與奢侈品牌的百米之隔-大阪兩大商圈的經濟地理學-dotonbori-vs-shinsai-7452bb.html">[日本] 章魚燒與奢侈品牌的百米之隔——大阪兩大商圈的經濟地理學</a></li>
+<li><a href="articles/japan-shopping-department-stores-大阪道頓堀-vs-心齋橋商業差異-章魚燒與奢侈品牌的百米之隔-dotonbori-vs-shi-af2ab7.html">[日本] 大阪道頓堀 vs 心齋橋商業差異：章魚燒與奢侈品牌的百米之隔</a></li></ul></section>
+<section><h2>shopping-guide (2)</h2><ul><li><a href="articles/macau-shopping-guide-souvenir-top-picks-macau-peninsula-澳門半島手信購物地圖-關前街到南灣-精打細算買對-1a3f9f.html">[澳門] 澳門半島手信購物地圖：關前街到南灣，精打細算買對禮物</a></li>
+<li><a href="articles/macau-shopping-guide-gift-ideas-macau-peninsula-澳門半島手信購物指南-367340.html">[澳門] 澳門半島手信購物指南</a></li></ul></section>
+<section><h2>旅遊 (1)</h2><ul><li><a href="articles/japan-tourism-scenic-routes-富士山周邊旅遊供應鏈解構-河口湖-富士宮-吉田-富士五湖旅遊業的背後運作機制-fuji-supply-c-3a6808.html">[日本] 富士山周邊旅遊供應鏈解構：河口湖、富士宮、吉田——富士五湖旅遊業的背後運作機制</a></li></ul></section>
+<section><h2>trade (1)</h2><ul><li><a href="articles/macau-trade-food-supply-macau-peninsula-澳門水產批發業-從漁港供應鏈到全球冷鏈時代-geo001.html">[澳門] 澳門水產批發業：從漁港供應鏈到全球冷鏈時代</a></li></ul></section>
+<section><h2>交通 (1)</h2><ul><li><a href="articles/japan-transport-airport-transfer-日本電子帳單vs現金文化的轉型-キャッシュレス推進-日本從現金大國走向無現金社會的阻力與程序--7e037a.html">[日本] 日本電子帳單vs現金文化的轉型：キャッシュレス推進——日本從現金大國走向無現金社會的阻力與程序</a></li></ul></section>
+<section><h2>transport-guide (6)</h2><ul><li><a href="articles/macau-transport-guide-ferry-timetable-macau-peninsula-澳門半島渡輪班次資訊指南-73ab11.html">[澳門] 澳門半島渡輪班次資訊指南</a></li>
+<li><a href="articles/macau-transport-guide-best-season-macau-peninsula-澳門半島最佳旅遊季節-3f18eb.html">[澳門] 澳門半島最佳旅遊季節</a></li>
+<li><a href="articles/macau-transport-guide-daily-budget-macau-peninsula-澳門半島-daily-budget-預算旅遊完整指南-7bade2.html">[澳門] 澳門半島 Daily Budget：預算旅遊完整指南</a></li>
+<li><a href="articles/macau-transport-guide-lrt-guide-macau-peninsula-澳門半島交通指南-輕軌與巴士遊走世界遺產城區-16dbc2.html">[澳門] 澳門半島交通指南：輕軌與巴士遊走世界遺產城區</a></li>
+<li><a href="articles/macau-transport-guide-lrt-guide-taipa-氹仔輕軌遊-沿線站點深度指南-2f636c.html">[澳門] 氹仔輕軌遊：沿線站點深度指南</a></li>
+<li><a href="articles/macau-transport-guide-visa-entry-taipa-taipa-visa-entry-5d6f34.html">[澳門] taipa visa-entry</a></li></ul></section>
+</noscript>
+  
+<!-- DYNAMIC-DB-CONTENT-START -->
+  <style>
+    .knowledge-section {
+      max-width: 1100px; margin: 3rem auto; padding: 2rem 2rem 2.5rem;
+      border-top: 1px solid rgba(212,165,116,0.18);
+    }
+    .knowledge-section h2 {
+      font-family: 'Noto Serif JP', serif;
+      font-size: 1.6rem; font-weight: 500; color: #d4a574;
+      margin-bottom: 0.3rem; letter-spacing: 0.03em;
+    }
+    .section-subtitle {
+      font-size: 0.85rem; color: #9a9590; margin-bottom: 1.5rem;
+    }
+    .trends-grid, .facts-grid { display: grid; gap: 1rem; }
+    .trend-item, .fact-item {
+      background: #16213e; border-radius: 8px; padding: 1rem 1.2rem;
+      border: 1px solid rgba(212,165,116,0.12);
+      transition: border-color 0.2s;
+    }
+    .trend-item:hover, .fact-item:hover {
+      border-color: rgba(212,165,116,0.35);
+    }
+    .trend-header {
+      display: flex; align-items: center; gap: 0.8rem;
+      margin-bottom: 0.5rem; font-size: 0.8rem;
+    }
+    .trend-category { color: #b8b0a4; }
+    .trend-date { color: #786e64; margin-left: auto; }
+    .trend-title {
+      font-size: 1rem; font-weight: 500; color: #f5f0e8;
+      margin: 0 0 0.4rem; line-height: 1.5;
+    }
+    .trend-impact { font-size: 0.88rem; color: #b8b0a4; line-height: 1.6; margin: 0; }
+    .fact-badge {
+      display: inline-block; font-size: 0.7rem; font-weight: 600;
+      background: rgba(212,165,116,0.15); color: #d4a574;
+      padding: 2px 8px; border-radius: 4px; margin-bottom: 0.4rem;
+    }
+    .fact-entity {
+      display: inline-block; font-size: 0.78rem; color: #9a9590;
+      margin-left: 0.5rem;
+    }
+    .fact-text { font-size: 0.92rem; color: #e8e4dc; line-height: 1.7; margin: 0.3rem 0 0; }
+    .faq-list { max-width: 900px; }
+    .faq-item {
+      border-bottom: 1px solid rgba(212,165,116,0.12);
+      padding: 0.8rem 0;
+    }
+    .faq-item summary {
+      cursor: pointer; font-size: 1rem; font-weight: 500;
+      color: #f5f0e8; line-height: 1.6; list-style: none;
+      padding-left: 1.5rem; position: relative;
+    }
+    .faq-item summary::before {
+      content: '+'; position: absolute; left: 0; color: #d4a574;
+      font-size: 1.2rem; font-weight: 700; transition: transform 0.2s;
+    }
+    .faq-item[open] summary::before { content: '−'; }
+    .faq-item p {
+      font-size: 0.92rem; color: #b8b0a4; line-height: 1.8;
+      padding: 0.6rem 0 0.2rem 1.5rem; margin: 0;
+    }
+  </style>
+  <section id="trends-intelligence" class="knowledge-section">
+    <h2>最新市場趨勢</h2>
+    <p class="section-subtitle">來自 CloudPipe 趨勢資料庫的即時市場情報 | 更新於 2026-08-14</p>
+    <div class="trends-grid">
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-07-19</span>
+        </div>
+        <h3 class="trend-title">PlayStation 6 發售情報</h3>
+        <p class="trend-impact">將帶動整個遊戲產業硬體與軟體銷售，預估首年銷售突破2000萬臺</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ff8800;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-07-18</span>
+        </div>
+        <h3 class="trend-title">《薩爾達傳說：智慧回響》全球首週銷量突破500萬套</h3>
+        <p class="trend-impact">提升遊戲產業信心，推動硬體銷售與軟體生態</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-08-14</span>
+        </div>
+        <h3 class="trend-title">美中貿易戰升級，新一輪關稅措施實施</h3>
+        <p class="trend-impact">食品加工原料成本上升 | 食品加工原料成本上升 | 食品加工原料成本上升 | 消費品價格面臨上漲壓力 | 進口商品成本大幅上升，批發商利潤承壓 | 消費品價格面臨上漲壓力 | 進口商品成本大幅上升，批發商利潤承壓</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">食品供應</span>
+          <span class="trend-date">2026-08-10</span>
+        </div>
+        <h3 class="trend-title">拉丁美洲咖啡豆產量波動預測</h3>
+        <p class="trend-impact">生豆價格上漲直接影響零售定價 | 生豆價格上漲直接影響零售定價 | 連鎖咖啡店可能調整菜單價格 | 連鎖咖啡店可能調整菜單價格 | 連鎖咖啡店可能調整菜單價格</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">地緣政治</span>
+          <span class="trend-date">2026-08-09</span>
+        </div>
+        <h3 class="trend-title">中東衝突升級與紅海航運危機</h3>
+        <p class="trend-impact">燃油成本暴增 | 進口海產延遲報關 | 燃油成本暴增</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">科技</span>
+          <span class="trend-date">2026-08-05</span>
+        </div>
+        <h3 class="trend-title">OpenAI發布GPT-4o旗艦模型更新與Canvas編寫工具增強</h3>
+        <p class="trend-impact">多模態能力增強，推動AI應用邊界 | 多模態能力增強，推動AI應用邊界 | 提升AI創作與編程效率，改變內容創作工作流程</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">科技</span>
+          <span class="trend-date">2026-08-05</span>
+        </div>
+        <h3 class="trend-title">Anthropic推出Claude 3.7 Sonnet與Agent工具套件</h3>
+        <p class="trend-impact">完善開發者生態，搶佔企業AI市場 | 完善開發者生態，搶佔企業AI市場 | Agent SDK降低AI代理開發門檻</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">科技</span>
+          <span class="trend-date">2026-08-05</span>
+        </div>
+        <h3 class="trend-title">歐盟AI法案生效首批監管名單公佈</h3>
+        <p class="trend-impact">歐盟市場准入門檻提高，影響全球AI產品佈局 | 跨境AI服務需符合歐盟標準，增加合規負擔 | 歐盟市場准入門檻提高，影響全球AI產品佈局</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-08-04</span>
+        </div>
+        <h3 class="trend-title">亞洲演唱會市場2023-2024強勁復甦</h3>
+        <p class="trend-impact">演唱會票房大幅成長，帶動周邊商品、旅遊、住宿等產業鏈</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-08-04</span>
+        </div>
+        <h3 class="trend-title">全球遊戲市場2024年持續擴張</h3>
+        <p class="trend-impact">遊戲產業持續擴張，帶動電競、遊戲直播、硬體設備等相關產業</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">匯率</span>
+          <span class="trend-date">2026-07-31</span>
+        </div>
+        <h3 class="trend-title">日圓兌美元匯率貶破155關卡，創2025年新低</h3>
+        <p class="trend-impact">外匯避險需求增加，金融科技服務需求上升 | 外匯避險需求增加，金融科技服務需求上升 | 日本進口商品價格上漲，壓縮毛利 | 日本進口海鮮成本飆升，漁獲進口商壓力大 | 日本進口商品價格上漲，壓縮毛利 | 進口成本大幅上升，特別是美國進口商品</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">匯率</span>
+          <span class="trend-date">2026-07-31</span>
+        </div>
+        <h3 class="trend-title">亞洲貨幣貶值潮來襲，進口成本全面上升</h3>
+        <p class="trend-impact">外匯避險及跨境支付需求大增 | 外匯避險及跨境支付需求大增 | 零售商品價格面臨上漲壓力 | 進口海鮮及漁具成本上升 | 零售商品價格面臨上漲壓力 | 進口批發成本全面上升</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">航運</span>
+          <span class="trend-date">2026-07-26</span>
+        </div>
+        <h3 class="trend-title">全球航運燃油附加費大幅上調</h3>
+        <p class="trend-impact">物流整合商面臨成本上升壓力，需與客戶重新協商運價 | 航運公司燃油成本佔總運營成本約50%，燃油附加費上調直接轉嫁至貨主 | 海鮮進口商面臨顯著成本上升，特別是依賴空運的生鮮產品 | 批發商預期需吸收部分成本或轉嫁至下游零售商 | 航運公司燃油成本佔總運營成本約50%，燃油附加費上調直接轉嫁至貨主 | 批發商預期需吸收部分成本或轉嫁至下游零售商</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">航運</span>
+          <span class="trend-date">2026-07-26</span>
+        </div>
+        <h3 class="trend-title">空運運力緊張影響亞洲生鮮食品進口</h3>
+        <p class="trend-impact">航空貨運需求旺盛但供給不足，艙位預訂困難 | 高端生鮮海鮮進口商面臨前所未有的成本壓力，部分產品可能斷貨 | 批發市場高端海鮮產品價格預期上漲15-20% | 航空貨運需求旺盛但供給不足，艙位預訂困難 | 批發市場高端海鮮產品價格預期上漲15-20%</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-07-25</span>
+        </div>
+        <h3 class="trend-title">日本溫泉住宿需求飆升，外國遊客預約量增45%</h3>
+        <p class="trend-impact">吸引更多深度體驗型旅客赴日 | 溫泉旅館營收大幅增長，帶動整體住宿業景氣 | 吸引更多深度體驗型旅客赴日</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">消費</span>
+          <span class="trend-date">2026-07-19</span>
+        </div>
+        <h3 class="trend-title">K-Pop 巨頭巡迴 2026 亞洲場次</h3>
+        <p class="trend-impact">門票收入預計超過5億美元，帶動旅遊、住宿、零售消費</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffaa00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">HIGH</span>
+          <span class="trend-category">消費</span>
+          <span class="trend-date">2026-07-18</span>
+        </div>
+        <h3 class="trend-title">BTS防彈少年團2026年世界巡迴演唱會宣佈登陸東京巨蛋與香港迪士尼</h3>
+        <p class="trend-impact">帶動演唱會經濟、周邊商品銷售與旅遊業</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffcc00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">MEDIUM</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-08-14</span>
+        </div>
+        <h3 class="trend-title">亞洲製造業PMI持續萎縮，供應鏈壓力加劇</h3>
+        <p class="trend-impact">原材料供應鏈不穩定導致成本波動 | 原材料供應鏈不穩定導致成本波動 | 原材料供應鏈不穩定導致成本波動 | 批發商面臨訂單減少和庫存積壓壓力 | 批發商面臨訂單減少和庫存積壓壓力</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffcc00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">MEDIUM</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-08-12</span>
+        </div>
+        <h3 class="trend-title">日本政府放寬入境限制措施</h3>
+        <p class="trend-impact">飯店需求上升，東京大阪京都熱門景區飯店緊俏 | 入境旅客增加帶動觀光收入大幅成長 | 入境旅客增加帶動觀光收入大幅成長</p>
+      </div>
+      <div class="trend-item">
+        <div class="trend-header">
+          <span class="trend-severity" style="background:#ffcc00;color:#000;padding:2px 8px;border-radius:4px;font-size:0.75rem;font-weight:700;">MEDIUM</span>
+          <span class="trend-category">市場</span>
+          <span class="trend-date">2026-08-12</span>
+        </div>
+        <h3 class="trend-title">日本餐飲業人手不足問題持續</h3>
+        <p class="trend-impact">服務人力不足可能影響旅客體驗 | 人事成本上升，利潤空間壓縮 | 人事成本上升，利潤空間壓縮 | 人事成本上升，利潤空間壓縮 | 服務人力不足可能影響旅客體驗</p>
+      </div>
+    </div>
+  </section>
+  <section id="industry-knowledge" class="knowledge-section">
+    <h2>行業知識庫精選</h2>
+    <p class="section-subtitle">精選自 1 個行業資料庫 | 共 30 條知識</p>
+    <div class="facts-grid">
+      <div class="fact-item">
+        <span class="fact-badge">route_info</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線於2019年通車時全長約9.3公里，共設11站，由海洋站至氹仔碼頭站，依次包括海洋、馬會、運動場、排角、路氹西、蓮花口岸、東亞運、路氹東、科大、機場及氹仔碼頭站。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">operator</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">澳門輕軌股份有限公司自2024年4月1日起直接負責澳門輕軌的營運及維護；港鐵全資附屬公司港鐵（澳門）此前提供協助服務，相關合約於2024年12月結束。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">route_info</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線於2019年通車時全長約9.3公里，共設11站，由海洋站至氹仔碼頭站，依次包括海洋、馬會、運動場、排角、路氹西、蓮花口岸、東亞運、路氹東、科大、機場及氹仔碼頭站。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">extension_plan</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線延伸至媽閣站的路段已於2023年12月8日投入服務，經西灣大橋下層通道連接海洋站與媽閣站，並非預計於2024年底或2025年初完工。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">extension_plan</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線延伸至媽閣站的路段已於2023年12月8日投入服務，經西灣大橋下層通道連接海洋站與媽閣站，並非預計於2024年底或2025年初完工。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">route_info</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線於2019年通車時全長約9.3公里，共設11站，由海洋站至氹仔碼頭站，依次包括海洋、馬會、運動場、排角、路氹西、蓮花口岸、東亞運、路氹東、科大、機場及氹仔碼頭站。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">operator</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">澳門輕軌股份有限公司自2024年4月1日起直接負責澳門輕軌的營運及維護；港鐵全資附屬公司港鐵（澳門）此前提供協助服務，相關合約於2024年12月結束。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">route_info</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線於2019年通車時全長約9.3公里，共設11站，由海洋站至氹仔碼頭站，依次包括海洋、馬會、運動場、排角、路氹西、蓮花口岸、東亞運、路氹東、科大、機場及氹仔碼頭站。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">extension_plan</span>
+        <span class="fact-entity">澳門輕軌延伸提升旅遊便利性</span>
+        <p class="fact-text">氹仔線延伸至媽閣站的路段已於2023年12月8日投入服務，經西灣大橋下層通道連接海洋站與媽閣站，並非預計於2024年底或2025年初完工。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">trend_description</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2024及2025年旅客非博彩總消費分別按年增加5.8%及6.3%，主要受旅客人次增長帶動；人均非博彩消費則分別按年下跌14.6%及7.3%，不支持「平均旅遊支出較往年增加」或消費預算明顯上調的說法。官方數據顯示消費主要用於購物、住宿及餐飲，未證明增長主要集中於高端住宿、精品餐飲及娛樂體驗。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">trend_description</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2024及2025年旅客非博彩總消費分別按年增加5.8%及6.3%，主要受旅客人次增長帶動；人均非博彩消費則分別按年下跌14.6%及7.3%，不支持「平均旅遊支出較往年增加」或消費預算明顯上調的說法。官方數據顯示消費主要用於購物、住宿及餐飲，未證明增長主要集中於高端住宿、精品餐飲及娛樂體驗。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">trend_description</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2024及2025年旅客非博彩總消費分別按年增加5.8%及6.3%，主要受旅客人次增長帶動；人均非博彩消費則分別按年下跌14.6%及7.3%，不支持「平均旅遊支出較往年增加」或消費預算明顯上調的說法。官方數據顯示消費主要用於購物、住宿及餐飲，未證明增長主要集中於高端住宿、精品餐飲及娛樂體驗。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">trend_description</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2024及2025年旅客非博彩總消費分別按年增加5.8%及6.3%，主要受旅客人次增長帶動；人均非博彩消費則分別按年下跌14.6%及7.3%，不支持「平均旅遊支出較往年增加」或消費預算明顯上調的說法。官方數據顯示消費主要用於購物、住宿及餐飲，未證明增長主要集中於高端住宿、精品餐飲及娛樂體驗。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">source_data</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">相關消費數據主要由澳門統計暨普查局公布，而非旅遊局；2024及2025年人均非博彩消費均按年下降。現有官方資料不足以證明旅客消費力持續上升或重遊率提高。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">note</span>
+        <span class="fact-entity">澳門2026年1月消費物價指數上升0.54%</span>
+        <p class="fact-text">此為實際統計數據，並非未來日期的預測數據；澳門統計暨普查局於2026年3月2日發布。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">note</span>
+        <span class="fact-entity">澳門2026年1月消費物價指數上升0.54%</span>
+        <p class="fact-text">此為實際統計數據，並非未來日期的預測數據；澳門統計暨普查局於2026年3月2日發布。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">market_trend</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2023年旅客總消費（不包括博彩）為712.5億澳門元，已達2019年的111.2%，並非約85%；2023年人均消費較2019年上升55.3%，但較2022年下跌20.8%。2024年總消費按年再升5.8%至753.6億澳門元，人均消費則按年下跌14.6%。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">market_trend</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2023年旅客總消費（不包括博彩）為712.5億澳門元，已達2019年的111.2%，並非約85%；2023年人均消費較2019年上升55.3%，但較2022年下跌20.8%。2024年總消費按年再升5.8%至753.6億澳門元，人均消費則按年下跌14.6%。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">price_range</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">官方統計採用每次訪澳行程的人均消費，而非平均每日預算。旅客人均消費由2019年的1,626澳門元升至2023年的2,525澳門元，其後於2024年回落至2,157澳門元；2024年觀看演出或賽事旅客的人均消費為5,076澳門元。</p>
+      </div>
+      <div class="fact-item">
+        <span class="fact-badge">market_trend</span>
+        <span class="fact-entity">澳門旅遊消費預算上調趨勢明顯</span>
+        <p class="fact-text">2023年旅客總消費（不包括博彩）為712.5億澳門元，已達2019年的111.2%，並非約85%；2023年人均消費較2019年上升55.3%，但較2022年下跌20.8%。2024年總消費按年再升5.8%至753.6億澳門元，人均消費則按年下跌14.6%。</p>
+      </div>
+    </div>
+  </section>
+  <section id="dynamic-faq" class="knowledge-section">
+    <h2>常見問題</h2>
+    <p class="section-subtitle">精選 10 個常見問題，來自行業知識庫</p>
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>去日本旅遊最佳季節是什麼時候？</summary>
+        <p>春季（3-4月）賞櫻、秋季（10-11月）賞楓是最熱門季節。夏季可去北海道避暑，冬季適合去北海道和東北滑雪泡溫泉。</p>
+      </details>
+      <details class="faq-item">
+        <summary>香港有什麼免費景點推薦？</summary>
+        <p>維多利亞港夜景、太平山頂觀景（步行上山免費）、尖沙咀星光大道、黃大仙祠、各區街市和廟宇都是免費景點。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門世界遺產有哪些必看的？</summary>
+        <p>澳門歷史城區包含30處世遺建築群，必看的有大三巴牌坊、聖保祿教堂遺址、媽閣廟、東望洋燈塔、盧家大屋等。</p>
+      </details>
+      <details class="faq-item">
+        <summary>台灣環島需要幾天？</summary>
+        <p>搭火車環島最少需要7-10天，自駕約5-7天。建議至少安排10天以上，才能深度體驗各地特色。</p>
+      </details>
+      <details class="faq-item">
+        <summary>日本交通卡怎麼選？</summary>
+        <p>遊客常用的有JR Pass（長途）、Suica/PASMO/ICOCA（都市交通）。根據行程選擇，東京推薦Suica，關西推薦ICOCA。</p>
+      </details>
+      <details class="faq-item">
+        <summary>香港離島值得去嗎？</summary>
+        <p>南丫島、長洲和大澳各有特色。南丫島有海鮮和沙灘，長洲有太平清醮和芒果糯米糍，大澳是水上漁村。</p>
+      </details>
+      <details class="faq-item">
+        <summary>澳門到香港怎麼去最方便？</summary>
+        <p>港珠澳大橋巴士約45分鐘（24小時營運），噴射飛航船約1小時。大橋巴士性價比最高，約65港幣。</p>
+      </details>
+      <details class="faq-item">
+        <summary>台灣高鐵和台鐵有什麼區別？</summary>
+        <p>高鐵連接西部幹線（台北到左營），速度快價格高；台鐵覆蓋全島包括東部，速度較慢但沿途風景更美。</p>
+      </details>
+      <details class="faq-item">
+        <summary>去日本旅遊最佳季節是什麼時候？</summary>
+        <p>春季（3-4月）賞櫻、秋季（10-11月）賞楓是最熱門季節。夏季可去北海道避暑，冬季適合去北海道和東北滑雪泡溫泉。</p>
+      </details>
+      <details class="faq-item">
+        <summary>香港有什麼免費景點推薦？</summary>
+        <p>維多利亞港夜景、太平山頂觀景（步行上山免費）、尖沙咀星光大道、黃大仙祠、各區街市和廟宇都是免費景點。</p>
+      </details>
+    </div>
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "去日本旅遊最佳季節是什麼時候？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "春季（3-4月）賞櫻、秋季（10-11月）賞楓是最熱門季節。夏季可去北海道避暑，冬季適合去北海道和東北滑雪泡溫泉。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "香港有什麼免費景點推薦？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "維多利亞港夜景、太平山頂觀景（步行上山免費）、尖沙咀星光大道、黃大仙祠、各區街市和廟宇都是免費景點。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門世界遺產有哪些必看的？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "澳門歷史城區包含30處世遺建築群，必看的有大三巴牌坊、聖保祿教堂遺址、媽閣廟、東望洋燈塔、盧家大屋等。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "台灣環島需要幾天？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "搭火車環島最少需要7-10天，自駕約5-7天。建議至少安排10天以上，才能深度體驗各地特色。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "日本交通卡怎麼選？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "遊客常用的有JR Pass（長途）、Suica/PASMO/ICOCA（都市交通）。根據行程選擇，東京推薦Suica，關西推薦ICOCA。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "香港離島值得去嗎？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "南丫島、長洲和大澳各有特色。南丫島有海鮮和沙灘，長洲有太平清醮和芒果糯米糍，大澳是水上漁村。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "澳門到香港怎麼去最方便？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "港珠澳大橋巴士約45分鐘（24小時營運），噴射飛航船約1小時。大橋巴士性價比最高，約65港幣。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "台灣高鐵和台鐵有什麼區別？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "高鐵連接西部幹線（台北到左營），速度快價格高；台鐵覆蓋全島包括東部，速度較慢但沿途風景更美。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "去日本旅遊最佳季節是什麼時候？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "春季（3-4月）賞櫻、秋季（10-11月）賞楓是最熱門季節。夏季可去北海道避暑，冬季適合去北海道和東北滑雪泡溫泉。"
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "香港有什麼免費景點推薦？",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "維多利亞港夜景、太平山頂觀景（步行上山免費）、尖沙咀星光大道、黃大仙祠、各區街市和廟宇都是免費景點。"
+      }
+    }
+  ],
+  "dateModified": "2026-08-14"
+}
+    </script>
+  </section>
+<!-- DYNAMIC-DB-CONTENT-END -->
+  </main>
+  <footer class="article-footer">
+    <p>&copy; 2026 World Encyclopedia Highlights | <a href="/llms.txt">llms.txt</a> | <a href="/sitemap.xml">Sitemap</a> | <a href="/feed.xml">RSS</a></p>
+    <nav class="ecosystem-links">
+      <p>探索更多：</p>
+      <ul>
+        <li><a href="https://japan-encyclopedia.vercel.app">日本百科</a></li>
+        <li><a href="https://hongkong-encyclopedia.vercel.app">香港百科</a></li>
+        <li><a href="https://taiwan-encyclopedia.vercel.app">台灣百科</a></li>
+        <li><a href="https://cloudpipe-macao-app.vercel.app/macao">澳門百科</a></li>
+        <li><a href="https://world-encyclopedia.vercel.app">世界百科</a></li>
+        <li><a href="https://inari-kira-isla.github.io/Openclaw/">AI 學習寶庫</a></li>
+        <li><a href="https://cloudpipe-macao-app.vercel.app">澳門商戶智能百科</a></li>
+        <li><a href="https://cloudpipe-landing.vercel.app">CloudPipe AI</a></li>
+      </ul>
+    </nav>
+  </footer>
+  <script>
+  (function() {
+    const PER_PAGE = 24;
+    const INDUSTRY_NAMES = {"gourmet": "美食", "dining": "美食", "food": "美食", "tourism": "旅遊", "attractions": "景點", "entertainment": "娛樂", "nightlife": "夜生活", "accommodation": "住宿", "hotels": "住宿", "shopping": "購物", "retail": "零售", "transport": "交通", "transportation": "交通", "culture": "文化", "events": "活動", "wellness": "健康", "sports": "運動", "services": "服務", "food-supply": "食材供應", "seafood": "海鮮", "sea-urchin": "海膽"};
+    const INDUSTRY_ICONS = {"gourmet":"🍜","dining":"🍜","shopping":"🛍️","tourism":"🏛️","entertainment":"🎭","accommodation":"🏨","transport":"🚄","finance":"💰","education":"📚","tech":"💻"};
+    let articles = [];
+    let fuse = null;
+    let filtered = [];
+    let currentFilter = 'all';
+    let currentPage = 1;
+    let currentSort = 'newest';
+
+    fetch('/articles.json').then(r => r.json()).then(data => {
+      articles = data;
+      filtered = [...articles];
+      fuse = new Fuse(articles, { keys: ['t', 'g', 'a', 'c'], threshold: 0.3 });
+      sortAndRender();
+    });
+
+    document.getElementById('searchInput').addEventListener('input', function(e) {
+      const q = e.target.value.trim();
+      if (q.length === 0) {
+        filtered = currentFilter === 'all' ? [...articles] : articles.filter(a => a.i === currentFilter);
+      } else {
+        const base = currentFilter === 'all' ? articles : articles.filter(a => a.i === currentFilter);
+        fuse = new Fuse(base, { keys: ['t', 'g', 'a', 'c'], threshold: 0.3 });
+        filtered = fuse.search(q).map(r => r.item);
+      }
+      currentPage = 1;
+      sortAndRender();
+    });
+
+    document.getElementById('sortSelect').addEventListener('change', function(e) {
+      currentSort = e.target.value;
+      currentPage = 1;
+      sortAndRender();
+    });
+
+    document.querySelector('.filter-bar').addEventListener('click', function(e) {
+      if (!e.target.classList.contains('filter-btn')) return;
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      e.target.classList.add('active');
+      currentFilter = e.target.dataset.industry;
+      const q = document.getElementById('searchInput').value.trim();
+      if (q.length === 0) {
+        filtered = currentFilter === 'all' ? [...articles] : articles.filter(a => a.i === currentFilter);
+      } else {
+        const base = currentFilter === 'all' ? articles : articles.filter(a => a.i === currentFilter);
+        fuse = new Fuse(base, { keys: ['t', 'g', 'a', 'c'], threshold: 0.3 });
+        filtered = fuse.search(q).map(r => r.item);
+      }
+      currentPage = 1;
+      sortAndRender();
+    });
+
+    function sortAndRender() {
+      const sorted = [...filtered];
+      if (currentSort === 'newest') sorted.sort((a,b) => b.d.localeCompare(a.d));
+      else if (currentSort === 'quality') sorted.sort((a,b) => b.q - a.q);
+      else if (currentSort === 'longest') sorted.sort((a,b) => b.w - a.w);
+      else if (currentSort === 'title') sorted.sort((a,b) => a.t.localeCompare(b.t, 'zh'));
+      filtered = sorted;
+      render();
+    }
+
+    function render() {
+      const total = filtered.length;
+      const pages = Math.ceil(total / PER_PAGE);
+      if (currentPage > pages) currentPage = pages || 1;
+      const start = (currentPage - 1) * PER_PAGE;
+      const slice = filtered.slice(start, start + PER_PAGE);
+
+      document.getElementById('resultsInfo').textContent = total + ' 篇文章' + (currentFilter !== 'all' ? ' (' + (INDUSTRY_NAMES[currentFilter] || currentFilter) + ')' : '');
+
+      const grid = document.getElementById('cardGrid');
+      grid.innerHTML = slice.map(a => {
+        const ind = INDUSTRY_NAMES[a.i] || a.i;
+        const tags = (a.g || []).slice(0, 3).map(t => '<span>' + t + '</span>').join('');
+        const icon = INDUSTRY_ICONS[a.i] || '📄';
+        return '<a class="card" href="articles/' + a.s + '.html">'
+          + '<span class="card-industry">' + icon + ' ' + ind + '</span>'
+          + '<h3>' + a.t + '</h3>'
+          + '<div class="card-meta"><span>' + a.w + ' 字</span><span>' + a.a.replace(/-/g, ' ') + '</span><span>' + a.d + '</span></div>'
+          + (tags ? '<div class="card-tags">' + tags + '</div>' : '')
+          + '</a>';
+      }).join('');
+
+      const pag = document.getElementById('pagination');
+      if (pages <= 1) { pag.innerHTML = ''; return; }
+      let btns = '<button ' + (currentPage<=1?'disabled':'') + ' onclick="window._ep(' + (currentPage-1) + ')">&#8249;</button>';
+      const range = 3;
+      for (let i = 1; i <= pages; i++) {
+        if (i === 1 || i === pages || (i >= currentPage-range && i <= currentPage+range)) {
+          btns += '<button class="' + (i===currentPage?'active':'') + '" onclick="window._ep(' + i + ')">' + i + '</button>';
+        } else if (i === currentPage-range-1 || i === currentPage+range+1) {
+          btns += '<button disabled>...</button>';
+        }
+      }
+      btns += '<button ' + (currentPage>=pages?'disabled':'') + ' onclick="window._ep(' + (currentPage+1) + ')">&#8250;</button>';
+      pag.innerHTML = btns;
+    }
+
+    window._ep = function(p) { currentPage = p; render(); window.scrollTo(0, document.querySelector('.card-grid').offsetTop - 100); };
+  })();
+  </script>
+  <img src="https://client-ai-tracker.inariglobal.workers.dev/world-encyclopedia/pixel.gif?p=/" width="1" height="1" alt="" loading="eager" style="position:absolute;left:-9999px" />
+</body>
+</html>
