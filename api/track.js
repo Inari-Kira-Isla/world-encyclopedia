@@ -7,7 +7,8 @@ export const config = { runtime: "edge" };
 const SITE_NAME = "world-encyclopedia";
 
 const SUPABASE_URL = "https://yitmabzsxfgbchhhjjef.supabase.co";
-const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InlpdG1hYnpzeGZnYmNoaGhqamVmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDA3OTQ0NzQsImV4cCI6MjA1NjM3MDQ3NH0.pDq3Mn6GT0y_IB-frPxJTTy5YaxJhJg3aluUsjR_VE4";
+// anon key 由 Vercel 環境變數 SUPABASE_ANON_KEY 提供（2026-11-16 起唔再寫死入 repo）
+const SUPABASE_KEY = process.env.SUPABASE_ANON_KEY || "";
 
 // 1x1 transparent GIF
 const PIXEL = new Uint8Array([
